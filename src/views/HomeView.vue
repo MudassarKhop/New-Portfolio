@@ -25,7 +25,57 @@
 </div>
 </section>
 <section id="about">
-<div id="about1"></div>
+<div id="about1">
+  <div class="container2">
+			<div class="box">
+				<div class="imgBx">
+					<img src="https://i.postimg.cc/tCrQqqCt/1431931.jpg" />
+				</div>
+				<router-link to="/flights">
+					<div class="content">
+						<div>
+							<h2>Indonesia, Bali</h2>
+							<p>
+								Bali has the world's most expensive coffee. The most expensive
+								coffee in the world comes from poop.
+							</p>
+						</div>
+					</div>
+				</router-link>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img
+						src="https://i.postimg.cc/2j2XvHRC/eiffel-tower-paris-4k-wide-1536x864.jpg"
+					/>
+				</div>
+				<router-link to="/flights">
+					<div class="content">
+						<div>
+							<h2>France, Paris</h2>
+							<p>Paris was originally a Roman City called “Lutetia.”</p>
+						</div>
+					</div>
+				</router-link>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="https://i.postimg.cc/DZm4NyZj/2338846.jpg" />
+				</div>
+				<router-link to="/flights">
+					<div class="content">
+						<div>
+							<h2>Monaco</h2>
+							<p>
+								Monaco is the 2nd smallest country in the world, a “microstate”
+								(or city-state) of only 2 sq km.
+							</p>
+						</div>
+					</div>
+				</router-link>
+			</div>
+		</div>
+</div>
 <div id="about2">
   <div id="heading">
     <h1>about me</h1>
@@ -253,6 +303,11 @@ background-color: #064663;
   width: 65%;
   height: 100%; 
   /* border: 3px solid gresen; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
  }
  #about2{
   background-color: #064663;
@@ -329,7 +384,211 @@ color: white;
 .fa-stairs{
   color: #ecb365;
 }
- /* about */
+#pictures1{
+width: 25%;
+height:100%;
+border:3px solid red;
+ display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+#pictures2{
+  width: 40%;
+height:100%;
+border: 3px solid green;
+ display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+#pictures3{
+width: 25%;
+height:100%;
+border:3px solid red;
+ display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.container2 {
+		position: relative;
+		margin-left: 20px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		transform-style: preserve-3d;
+		perspective: 500px;
+		padding: 2%;
+	}
+	.container2 .box {
+		/* position: relative; */
+		min-width: 325px;
+		min-height: 700px;
+		background: #000;
+		transition: 0.5s;
+		transform-style: preserve-3d;
+		overflow: hidden;
+		margin-right: 20px;
+	}
+	.container2:hover .box {
+		transform: rotateY(25deg);
+	}
+	.container2 .box:hover ~ .box {
+		transform: rotateY(-25deg);
+	}
+	.container2 .box:hover {
+		transform: rotateY(0deg) scale(1.25);
+		z-index: 1;
+		box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+	}
+	.container2 .box .imgBx {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.container2 .box .imgBx:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(180deg, black, #000);
+		z-index: 1;
+		opacity: 0;
+		transition: 0.5s;
+		mix-blend-mode: multiply;
+	}
+	.container2 .box:hover .imgBx:before {
+		opacity: 1;
+	}
+	.container2 .box .imgBx img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.container2 .box .content {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		display: flex;
+		padding: 20px;
+		align-items: flex-end;
+		box-sizing: border-box;
+	}
+	.container2 .box .content h2 {
+		font-family: Von;
+		color: #fff;
+		transition: 0.5s;
+		text-transform: uppercase;
+		margin-bottom: 5px;
+		font-size: 20px;
+		transform: translateY(200px);
+		transition-delay: 0.3s;
+	}
+	.container2 .box:hover .content h2 {
+		transform: translateY(0px);
+	}
+	.container2 .box .content p {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		color: #fff;
+		transition: 0.5s;
+		font-size: 14px;
+		transform: translateY(200px);
+		transition-delay: 0.4s;
+	}
+	.container2 .box:hover .content p {
+		transform: translateY(0px);
+	}
+	/* informations cards */
+	@media only screen and (max-width: 1315px) {
+		#home img {
+			display: none;
+		}
+		#home h1 {
+			text-align: center;
+			font-size: 40px;
+		}
+		#card1 {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			min-width: 20%;
+		}
+		#card2 {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			min-width: 70%;
+		}
+		#divide1 {
+			min-height: 500px;
+			min-width: 100%;
+		}
+		#divide1 p {
+			padding: 20px;
+			text-align: center;
+		}
+		#divide2 {
+			min-height: 50%;
+			min-width: 100%;
+		}
+		#stuuf {
+			min-height: 100%;
+		}
+		.stuff1 {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+		}
+		.stuff2 {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+		}
+		#divide4 {
+			min-height: 500px;
+			min-width: 100%;
+		}
+		#card11 {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			min-width: 70%;
+		}
+		#card11 h1 {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		#card11 p {
+			padding: 50px;
+		}
+		#card22 {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			min-width: 70%;
+		}
+		.container2 {
+			gap: 10px;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+	}
+/* about */
  /* projects */
  #projects{
   height: 100vh;
