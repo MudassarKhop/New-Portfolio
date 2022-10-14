@@ -4,16 +4,55 @@
 </template>
 
 <style>
+@font-face {
+  font-family: Pro;
+  src: url(./assets/FeelingSoon-1GVr0.otf);
+}
+
+@font-face {
+  font-family: Pro2;
+  src: url(./assets/MardeSauvePersonalUse-ywaPd.ttf);
+}
+
+@font-face {
+  font-family: Pro3;
+  src: url(./assets/MusticaproSemibold-2OG5o.otf);
+}
+
+@font-face {
+  font-family: Pro4;
+  src: url(./assets/PentaySansRegItalic-48n4.ttf);
+}
+
 *{
   margin: 0;
   padding: 0;
+}
+h3{
+  font-family: Pro;
+}
+h2{
+  font-family: Pro;
+}
+h1{
+  font-family: Pro;
+}
+h5{
+  font-family: Pro;
+}
+p{
+  font-family: Pro3;
+}
+span{
+  font-family: Pro2;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: #18315b;
+  background-color: #041c32;
+  
   color: #2c3e50;
 }
 #logo{
