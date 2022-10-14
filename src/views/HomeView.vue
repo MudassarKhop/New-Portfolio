@@ -310,14 +310,14 @@ background-color: #064663;
   align-content: center;
  }
  #about2{
-  background-color: #064663;
+  /* background-color: #064663; */
   width: 35%;
   height: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: start;
-  align-content: flex-start;
+  align-content: center;
   /* border: 3px solid green; */
  }
  #heading{
