@@ -29,50 +29,44 @@
   <div class="container2">
 			<div class="box">
 				<div class="imgBx">
-					<img src="https://i.postimg.cc/tCrQqqCt/1431931.jpg" />
+					<img src="https://i.postimg.cc/gjkPfPs5/IMG-20221016-WA0053.jpg" />
 				</div>
-				<router-link to="/flights">
 					<div class="content">
 						<div>
-							<h2>Indonesia, Bali</h2>
+							<h2>Hiking</h2>
 							<p>
-								Bali has the world's most expensive coffee. The most expensive
-								coffee in the world comes from poop.
+								My adventurous personality follows me climbing some of the most beautiful mountains in Cape Town.
 							</p>
 						</div>
 					</div>
-				</router-link>
 			</div>
 			<div class="box">
 				<div class="imgBx">
 					<img
-						src="https://i.postimg.cc/2j2XvHRC/eiffel-tower-paris-4k-wide-1536x864.jpg"
+						src="https://i.postimg.cc/C100s8qw/20220131-205308.jpg"
 					/>
 				</div>
-				<router-link to="/flights">
-					<div class="content">
+        <div class="content">
 						<div>
-							<h2>France, Paris</h2>
-							<p>Paris was originally a Roman City called “Lutetia.”</p>
-						</div>
-					</div>
-				</router-link>
-			</div>
-			<div class="box">
-				<div class="imgBx">
-					<img src="https://i.postimg.cc/DZm4NyZj/2338846.jpg" />
-				</div>
-				<router-link to="/flights">
-					<div class="content">
-						<div>
-							<h2>Monaco</h2>
+							<h2>ME</h2>
 							<p>
-								Monaco is the 2nd smallest country in the world, a “microstate”
-								(or city-state) of only 2 sq km.
+								Driven, determined, focused and competitive but you already know that. Why don't you have a look at some of my projects below.
 							</p>
 						</div>
 					</div>
-				</router-link>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="https://i.postimg.cc/wvkpfBXL/IMG-20220617-WA0027.jpg" />
+				</div>
+					<div class="content">
+						<div>
+							<h2>Fives Football</h2>
+							<p>
+								Besides my strong passion for coding and technology, I play football to escape from the real world for 60 minutes. To restart my thinking system and return with new ideas.
+							</p>
+						</div>
+					</div>
 			</div>
 		</div>
 </div>
@@ -118,7 +112,38 @@
 </div>
 </section>
 <section id="projects">
-
+<div id="stack">
+  <div  id="heading2">
+    <h1>my stack</h1>
+    <h5>my current skills set</h5>
+  </div>
+  <div id="languages">
+    <div>    <i class="fa-brands fa-html5"></i>
+</div>
+    <div>    <i class="fa-brands fa-css3-alt"></i>
+</div>
+    <div>    <i class="fa-brands fa-bootstrap"></i>
+</div>
+    <div>    <i class="fa-brands fa-square-js"></i>
+</div>
+    <div>
+    <i class="fa-brands fa-vuejs"></i></div>
+    <div>    <i class="fa-brands fa-wordpress"></i>
+</div>
+  </div>
+</div>
+<div id="projectss">
+  <div  id="heading">
+    <h1>projects</h1>
+    <h5>some of my work</h5>
+  </div>
+  <div id="procard">
+    <div id="cards"></div>
+    <div id="cards"></div>
+    <div id="cards"></div>
+    <div id="cards"></div>
+  </div>
+</div>
 </section>
 <section id="testimonials">
 
@@ -300,7 +325,7 @@ background-color: #064663;
 
  }
  #about1{
-  width: 65%;
+  width: 62%;
   height: 100%; 
   /* border: 3px solid gresen; */
   display: flex;
@@ -311,7 +336,7 @@ background-color: #064663;
  }
  #about2{
   /* background-color: #064663; */
-  width: 35%;
+  width: 38%;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -353,16 +378,16 @@ background-color: #064663;
   letter-spacing: 1px;
   padding-left: 13px;
   padding-bottom: 13px;
-
- }
+}
 #skillsblocks{
   /* border: 3px solid red; */
-  width: 100%;
+  width: 93%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  
 }
 #skills{
   width: 50%;
@@ -444,7 +469,7 @@ border:3px solid red;
 	.container2 .box:hover {
 		transform: rotateY(0deg) scale(1.25);
 		z-index: 1;
-		box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+		box-shadow: 0 10px 15px #ecb365;
 	}
 	.container2 .box .imgBx {
 		position: absolute;
@@ -460,7 +485,7 @@ border:3px solid red;
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: linear-gradient(180deg, black, #000);
+		background: linear-gradient(180deg, rgb(11, 18, 84), #000);
 		z-index: 1;
 		opacity: 0;
 		transition: 0.5s;
@@ -490,8 +515,8 @@ border:3px solid red;
 		box-sizing: border-box;
 	}
 	.container2 .box .content h2 {
-		font-family: Von;
-		color: #fff;
+		font-family: Pro;
+		color: #ecb365;
 		transition: 0.5s;
 		text-transform: uppercase;
 		margin-bottom: 5px;
@@ -503,10 +528,11 @@ border:3px solid red;
 		transform: translateY(0px);
 	}
 	.container2 .box .content p {
-		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-family: Pro;
 		color: #fff;
 		transition: 0.5s;
 		font-size: 14px;
+    letter-spacing: 2px;
 		transform: translateY(200px);
 		transition-delay: 0.4s;
 	}
@@ -591,8 +617,116 @@ border:3px solid red;
 /* about */
  /* projects */
  #projects{
-  height: 100vh;
+  height: 80vh;
+  border-bottom: 1px solid #04293a;
+  display: flex;
+  flex-direction: row;
+  gap: 6%;
  }
+ #stack{
+  width: 35%;
+  height: 100%;
+  /* border: 3px solid rewhite */
+ }
+ #heading2{
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-items: end;
+  align-items: flex-end;
+  padding: 20px;
+  letter-spacing: 2px;
+ }
+#languages{
+  width: 100%;
+  height: 80%;
+  /* border: 3px solid greewhite */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-content: flex-end;
+  gap: 20px;
+
+}
+#languages div{
+  background-color:#04293a ;
+  width: 285px;
+  height: 210px;
+
+}
+     .fa-html5{
+      font-size:100px ;
+      color: white;
+      padding: 50px;
+      }  
+     .fa-css3-alt{
+      font-size:100px ;
+      color: white;
+      padding: 50px;
+     }
+     .fa-bootstrap{
+      font-size:100px ;
+      color: white;
+      padding: 50px;
+     }
+     .fa-square-js{
+      font-size:100px ;
+      color: white;
+      padding: 50px;
+     }
+     .fa-vuejs{
+      font-size:100px ;
+      color: white;
+      padding: 50px;
+     }
+     .fa-wordpress{
+      font-size:100px ;
+      color: white;
+      padding: 50px;
+     }
+     .fa-html5:hover{
+      color: #ecb365;
+      }  
+     .fa-css3-alt:hover{
+      color: #ecb365;
+     }
+     .fa-bootstrap:hover{
+      color: #ecb365;
+     }
+     .fa-square-js:hover{
+      color: #ecb365;
+     }
+     .fa-vuejs:hover{
+      color: #ecb365;
+     }
+     .fa-wordpress:hover{
+     color: #ecb365;
+     }
+     #projectss{
+      width: 55%;
+      height: 100%;
+      border: 3px solid red;
+
+     }
+     #procard{
+      width: 100%;
+  height: 80%;
+  border: 3px solid green;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: flex-start;
+  gap: 20px;
+     }
+     #cards{
+      width: 240px;
+      height: 350px;
+      background-color: #04293a;
+     }
  /* projects */
  /* testimonials */
  #testimonials{
