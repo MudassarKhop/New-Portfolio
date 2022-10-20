@@ -118,13 +118,13 @@
     <h5>my current skills set</h5>
   </div>
   <div id="languages">
-    <div>    <i class="fa-brands fa-html5"></i>
+    <div>    <i  class="fa-brands fa-html5"></i>
 </div>
-    <div>    <i class="fa-brands fa-css3-alt"></i>
+    <div>    <i  class="fa-brands fa-css3-alt"></i>
 </div>
-    <div>    <i class="fa-brands fa-bootstrap"></i>
+    <div>    <i  class="fa-brands fa-bootstrap"></i>
 </div>
-    <div>    <i class="fa-brands fa-square-js"></i>
+    <div>    <i  class="fa-brands fa-square-js"></i>
 </div>
     <div>
     <i class="fa-brands fa-vuejs"></i></div>
@@ -138,10 +138,18 @@
     <h5>some of my work</h5>
   </div>
   <div id="procard">
-    <div id="cards"></div>
-    <div id="cards"></div>
-    <div id="cards"></div>
-    <div id="cards"></div>
+    <div id="cards">
+      <img id="proimg" src="https://i.postimg.cc/76Mng6q0/Opera-Snapshot-2022-10-20-155842-cap-stone-mudassarkhopatkar-netlify-app.png" alt="">
+    </div>
+    <div id="cards">
+      <img id="proimg" src="https://i.postimg.cc/DwJQx522/Opera-Snapshot-2022-10-20-155905-joint-eomp-netlify-app.png" alt="">
+    </div>
+    <div id="cards">
+      <img id="proimg" src="https://i.postimg.cc/hvtTT1yR/Opera-Snapshot-2022-10-20-155947-muda-autohaus-netlify-app.png" alt="">
+    </div>
+    <div id="cards">
+      <img id="proimg" src="https://i.postimg.cc/BnXpd4Cf/Opera-Snapshot-2022-10-20-160002-mellifluous-torte-f0f720-netlify-app.png" alt="">
+    </div>
   </div>
 </div>
 </section>
@@ -320,7 +328,7 @@ background-color: #064663;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  height: 80vh;
+  height: 100vh;
   border-bottom: 1px solid #04293a;
 
  }
@@ -617,16 +625,24 @@ border:3px solid red;
 /* about */
  /* projects */
  #projects{
-  height: 80vh;
-  border-bottom: 1px solid #04293a;
   display: flex;
   flex-direction: row;
-  gap: 6%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  border-bottom: 1px solid #04293a;
+  gap: 4%;
  }
  #stack{
-  width: 35%;
+  width: 25%;
   height: 100%;
-  /* border: 3px solid rewhite */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  /* border: 3px solid white; */
  }
  #heading2{
   width: 100%;
@@ -641,8 +657,8 @@ border:3px solid red;
  }
 #languages{
   width: 100%;
-  height: 80%;
-  /* border: 3px solid greewhite */
+  height: 65%;
+  /* border: 3px solid green; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -653,8 +669,9 @@ border:3px solid red;
 }
 #languages div{
   background-color:#04293a ;
-  width: 285px;
+  width: 225px;
   height: 210px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
      .fa-html5{
@@ -708,13 +725,17 @@ border:3px solid red;
      #projectss{
       width: 55%;
       height: 100%;
-      border: 3px solid red;
+      display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+      /* border: 3px solid red; */
 
      }
      #procard{
       width: 100%;
-  height: 80%;
-  border: 3px solid green;
+  /* border: 3px solid green; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -723,9 +744,16 @@ border:3px solid red;
   gap: 20px;
      }
      #cards{
-      width: 240px;
-      height: 350px;
+      width: 249px;
+      height: 450px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
       background-color: #04293a;
+     }
+     #proimg{
+      width: 100%;
+      height: 40%;
+      aspect-ratio: 1/1;
      }
  /* projects */
  /* testimonials */
