@@ -157,73 +157,80 @@
 </div>
 </section>
 <section id="testimonials">
-  <div id="testimonialss">
-  <div  id="heading3">
+  <div id="projectsec">
+    <div  id="heading2">
+    <h1>my projects</h1>
+    <h5>some of my work</h5>
+  </div>
+  </div>
+  <div id="testimonialsec">
+    <div  id="heading3">
     <h1>testimonials</h1>
     <h5>what people have to say about me</h5>
   </div>
-  <div id="people">
-   <div id="cards2">
-    <div id="testpic">
-      <img src="https://ca.slack-edge.com/T02LW4RMXJQ-U036JA3NVL5-45897a34dc43-512" alt="">
-    </div>
-    <div id="testhead">
-<h3>Jason Wandrag</h3>
-<h4>lecturer</h4>
-    </div>
-    <div id="thewords">
-      <p>Mudassar shows a lot of promise as a software developer. When he is focused, he works very diligently. I'm always happy seeing Mudassar grow as a developer, and I hope he continues to work hard.
-</p>
-    </div>
-   </div>
-   <div id="cards2">
-    <div id="testpic">
-      <img src="https://github.com/MudassarKhop/Real-Portoflio/blob/main/Tshimologo%20(2).JPG?raw=true" alt="">
-    </div>
-    <div id="testhead">
-<h3>Tsimologo King</h3>
-<h4>peer</h4>
-    </div>
-    <div id="thewords"> <p> I am profoundly impressed with his intense focus and commitment. I am convinced that he can make a more valuable contribution for future endeavours.</p></div>
-   </div>
-   <div id="cards2">
-    <div id="testpic">
-      <img src="https://github.com/MudassarKhop/Real-Portoflio/blob/main/Jesse%20(2).JPG?raw=true" alt="">
-    </div>
-    <div id="testhead">
-<h3>Jesse Spence</h3>
-<h4>peer</h4>
-    </div>
-    <div id="thewords">
-      <p>It is my great pleasure to have worked with Mudassar Khopatkar as he is a good team worker.He can collaborate and communicate with others on their ideas.</p>
-    </div>
-   </div>
-   <div id="cards2">
-    <div id="testpic">
-      <img src="https://github.com/MudassarKhop/Real-Portoflio/blob/main/Zoe%20(1).JPG?raw=true" alt="">
-    </div>
-    <div id="testhead">
-<h3>Zoe VDS</h3>
-<h4>peer</h4>
-    </div>
-    <div id="thewords">
-      <p>Mudassar khopatkar is a dedicated person , he strives to reach his goals and will put twice the amount of work in to achieve everything . He is a extremely talented person with many skills .</p>
-    </div>
-   </div>
-   <div id="cards2">
-    <div id="testpic">
-      <img src="https://github.com/MudassarKhop/Real-Portoflio/blob/main/Carla%20(1).JPG?raw=true" alt="">
-    </div>
-    <div id="testhead">
-<h3>Carla Lawrence</h3>
-<h4>peer</h4>
-    </div>
-    <div id="thewords">
-      <p>Mudassar Khopatkar is a highly competent and focused web developer. His friendly disposition draws his colleagues to him and he is impressionable to everyone he comes in contact with.</p>
-    </div>
-   </div>
+  <div id="roww">
+    <div id="testcard">
+  <div id="testimg">
+    <img src="	https://ca.slack-edge.com/T02LW4RMXJQ-U036JA3NVL5-45897a34dc43-512" alt="">
+        <div  id="heading4">
+    <h3>Jason Wandrag</h3>
+    <h5>lecturer</h5>
   </div>
 </div>
+<div id="passage2">
+<p>Mudassar shows a lot of promise as a software developer. His coding skills are gradually and steadily improving over time. I'm always happy seeing Mudassar grow as a developer, and I hope he continues to work hard.</p>
+</div>
+    </div>
+    <div id="testcard">
+  <div id="testimg">
+    <img src="https://i.postimg.cc/V6dfm65g/Screenshot-1.png" alt="">
+        <div  id="heading4">
+    <h3>Tshimologo King</h3>
+    <h5>peer</h5>
+  </div>
+  </div>
+  <div id="passage2">
+<p>I am profoundly impressed with his intense focus and commitment. I am convinced that he can make a more valuable contribution for future endeavours.</p>
+</div>
+  </div>
+  <div id="testcard">
+  <div id="testimg">
+    <img src="https://ca.slack-edge.com/T02LW4RMXJQ-U039YNLH7QT-203c079ccfdb-72" alt="">
+        <div  id="heading4">
+    <h3>Jesse Spence</h3>
+    <h5>colleague</h5>
+  </div>
+  </div>
+  </div>
+  <div id="testcard">
+  <div id="testimg">
+    <img src="https://i.postimg.cc/X7DrCR6p/Whats-App-Image-2022-11-01-at-23-20-03.jpg" alt="">
+        <div  id="heading4">
+    <h3>Zoe VDS</h3>
+    <h5>peer</h5>
+  </div>
+  </div>
+  </div>
+  <div id="testcard">
+  <div id="testimg">
+    <img src="https://ca.slack-edge.com/T02LW4RMXJQ-U039VS42R6Z-8f50925e8efb-72" alt="">
+        <div  id="heading4">
+    <h3>Carla Lawrence</h3>
+    <h5>peer</h5>
+  </div>
+  </div>
+</div>
+<div id="testcard">
+  <div id="testimg">
+    <img src="https://i.postimg.cc/8cP2dngC/Opera-Snapshot-2022-11-01-231330-www-instagram-com.png" alt="">
+        <div  id="heading4">
+    <h3>Ricardo Moses</h3>
+    <h5>colleague</h5>
+  </div>
+  </div>
+</div>
+  </div>
+  </div>
 </section>
 <section id="contact">
  <div id="contactbox">
@@ -887,19 +894,6 @@ border:3px solid red;
       letter-spacing: 1px;
       /* margin-bottom: 0 !important; */
      }
-     #modal{
-      width: 100%;
-      height: 25%;
-      /* border: 2px solid yellow; */
-      display: flex !important;
-      flex-direction: row !important;
-      flex-wrap: nowrap !important;
-      justify-content: center !important;
-      align-items: center !important;
-      /* margin-top: 10px;
-      margin-bottom: 10px; */
-      
-     }
      .btn{
       width: 80%;
       height: 50%;
@@ -971,96 +965,88 @@ border:3px solid red;
   align-content: center;
   border-bottom: 1px solid #04293a;
  }
- #testimonialss{
-width: 90%;
-display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
- }
- #cards2{
-  height: 500px;
-  width: 320px;
-  background-color: #04293a;
-  box-shadow: rgb(10, 15, 20) 0px 20px 30px -10px;  flex-direction: column;
-  border-radius: 12px;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-}
- #people{
-  width: 100%;
-  height: 80%;
-  /* border: 3px solid green; */
+ #projectsec{
+  height: 100%;
+  width: 50%;
+  border: 1px solid red;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  gap: 20px;
  }
- #testpic{
-  width: 100%;
-  padding: 5px;
+ #testimonialsec{
+  height: 100%;
+  width: 50%;
   /* border: 1px solid red; */
-  height: 35%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
- }
- #testhead{
-  width: 100%;
-  /* border: 1px solid green; */
-  height: 20%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
- }
- #testhead h3{
-  color: #fff;
-  letter-spacing: 1px;
-  margin-bottom: 0;
- }
- #testhead h4{
-  color: #ecb365;
-  letter-spacing: 1px;
-  margin-bottom: 0;
- }
- #thewords{
-  width: 100%;
-  /* border: 1px solid yellow; */
-  height: 45%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: start;
-  align-content: flex-start;
+  align-content: center;
+  gap: 20px;
  }
- #thewords p{
-  color: rgba(255, 255, 255, 0.686);
-  text-align: center;
-  font-size: 18px;
-  letter-spacing: 1px;
-  padding-left: 5px;
-  padding-right: 5px;
+ #roww{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
  }
- #testpic img{
+ #testcard{
+  width: 45%;
+  height: 35%;
+  background-color: #04293a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+border-radius: 12px;
+display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+ }
+ #container{
+  width: 100%;
+  height: 55%;
+ }
+ #testimg{
+  height: 40%;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid yellow; */
+ }
+ #testimg img{
   border-radius: 50%;
-  /* border: 5px solid #ecb365; */
-  height: 90%;
-  width: 60%;
-  aspect-ratio: 1;
+  height: 100%;
+ }
+ #heading4{
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-items: start;
+  align-items: flex-start;
+  padding: 20px;
+  letter-spacing: 2px;
+ }
+ #heading4 h3{
+  margin-bottom: 0;
+ }
+ #passage2{
+  height: 55%;
+  padding: 5px;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.686);
  }
  /* testimonials */
  /* contact */
  #contact{
   border-top: 1px solid #04293a;
-  height: 85vh;
+  height: 100vh;
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;
