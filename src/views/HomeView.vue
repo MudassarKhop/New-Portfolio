@@ -25,6 +25,46 @@
 </div>
 </section>
 <section id="about">
+  <div id="about2" >
+  <div id="heading">
+    <h1>about me</h1>
+    <h5>20 years young / cape town / intern</h5>
+  </div>
+  <div id="passage">
+    <p>I'm an ambitious, focused and determined individual. I'm also very
+							competitive. I always look for ways to challenge myself. I'm very
+							patient with others and work well in a team environment. I have a
+							very spontaneous personality, which makes me think the adventurous
+							characteristic applies to me. I have always been fascinated with
+							technology, and I hope to become a web and or software developer.</p>
+  </div>
+  <div id="skillsblocks">
+    <div id="skills">
+      <div id="heading">
+        <h5><i class="fa-solid fa-people-group"></i> Team Player</h5>
+        <p style="text-align:end; color:rgba(255, 255, 255, 0.686); font-size:18px">In my time playing football, I realised that the team can only succeed working as one unit.</p>
+      </div>
+    </div>
+    <div id="skills">
+      <div id="heading">
+        <h5><i class="fa-solid fa-bolt"></i> Determination</h5>
+        <p style="text-align:end; color:rgba(255, 255, 255, 0.686); font-size:18px">Once commited to a task, I strive to do to everything in my power to complete the task. </p>
+      </div>
+    </div>
+    <div id="skills">
+      <div id="heading">
+        <h5><i class="fa-solid fa-brain"></i> Problem Solving</h5>
+        <p style="text-align:end; color:rgba(255, 255, 255, 0.686); font-size:18px">In the academy where I learnt coding, I faced many obstacles but when put under pressure, I produce some of my best work.</p>
+      </div>
+    </div>
+    <div id="skills">
+      <div id="heading">
+        <h5><i class="fa-solid fa-stairs"></i> Leadership</h5>
+        <p style="text-align:end; color:rgba(255, 255, 255, 0.686); font-size:18px">I believe I possess some of the core skills to be a leader such as: time management, flexbility, creativity and most importantly postivity. </p>
+      </div>
+    </div>
+  </div>
+</div>
 <div id="about1">
   <div class="container2">
 			<div class="box">
@@ -70,46 +110,6 @@
 			</div>
 		</div>
 </div>
-<div id="about2">
-  <div id="heading">
-    <h1>about me</h1>
-    <h5>20 years young / cape town / intern</h5>
-  </div>
-  <div id="passage">
-    <p>I'm an ambitious, focused and determined individual. I'm also very
-							competitive. I always look for ways to challenge myself. I'm very
-							patient with others and work well in a team environment. I have a
-							very spontaneous personality, which makes me think the adventurous
-							characteristic applies to me. I have always been fascinated with
-							technology, and I hope to become a web and or software developer.</p>
-  </div>
-  <div id="skillsblocks">
-    <div id="skills">
-      <div id="heading">
-        <h5><i class="fa-solid fa-people-group"></i> Team Player</h5>
-        <p style="text-align:start; color:rgba(255, 255, 255, 0.686); font-size:18px">In my time playing football, I realised that the team can only succeed working as one unit.</p>
-      </div>
-    </div>
-    <div id="skills">
-      <div id="heading">
-        <h5><i class="fa-solid fa-bolt"></i> Determination</h5>
-        <p style="text-align:start; color:rgba(255, 255, 255, 0.686); font-size:18px">Once commited to a task, I strive to do to everything in my power to complete the task. </p>
-      </div>
-    </div>
-    <div id="skills">
-      <div id="heading">
-        <h5><i class="fa-solid fa-brain"></i> Problem Solving</h5>
-        <p style="text-align:start; color:rgba(255, 255, 255, 0.686); font-size:18px">In the academy where I learn't coding, I faced many obstacles but when put under pressure, I produce some of my best work.</p>
-      </div>
-    </div>
-    <div id="skills">
-      <div id="heading">
-        <h5><i class="fa-solid fa-stairs"></i> Leadership</h5>
-        <p style="text-align:start; color:rgba(255, 255, 255, 0.686); font-size:18px">I believe I possess some of the core skills to be a leader such as, time management, flexbility, creativity and most importantly postivity. </p>
-      </div>
-    </div>
-  </div>
-</div>
 </section>
 <section id="projects">
 <div id="stack">
@@ -133,31 +133,126 @@
   </div>
 </div>
 <div id="projectss">
-  <div  id="heading">
-    <h1>projects</h1>
-    <h5>some of my work</h5>
-  </div>
-  <div id="procard">
-    <div id="cards">
-      <img id="proimg" src="https://i.postimg.cc/76Mng6q0/Opera-Snapshot-2022-10-20-155842-cap-stone-mudassarkhopatkar-netlify-app.png" alt="">
+  <!-- <div  id="heading3">
+    <h1>my journey</h1>
+    <h5>how i achieved my goals</h5>
+  </div> -->
+  <div id="journey">
+    <div id="j1">
+      <img style="height:300px; width:200px" src="https://i.postimg.cc/sfBjRZ7G/kindpng-567305-removebg-preview.png" alt="">
+<div style="text-align:start" id="jhead"><h2>schooling</h2>
+<p>In the period of 2016-2021, I attended Rylands High School in the Athlone area. During this period I failed Grade 11 once and I'd like to believe this was the turning point in my life that motivated me to work harder to achieve my dream career in coding. </p></div>
     </div>
-    <div id="cards">
-      <img id="proimg" src="https://i.postimg.cc/DwJQx522/Opera-Snapshot-2022-10-20-155905-joint-eomp-netlify-app.png" alt="">
+    <div id="j2">
+      <div style="text-align:end" id="jhead"><h2>coding</h2>
+     <p>I learnt how to code at Life Choices Academy in the bootcamp from March-September. This opportunity was handed to me by highschool math teacher who saw the potential within me. This is where I picked up my stack on the left under some of the best lecturers.</p></div>
+      <img style="height:310px; width:300px" src="https://i.postimg.cc/Qd3tJkVZ/d-funny-character-cartoon-sympathetic-looking-business-man-dear-person-suit-glasses-tie-47992402-tra.png" alt="">
     </div>
-    <div id="cards">
-      <img id="proimg" src="https://i.postimg.cc/hvtTT1yR/Opera-Snapshot-2022-10-20-155947-muda-autohaus-netlify-app.png" alt="">
-    </div>
-    <div id="cards">
-      <img id="proimg" src="https://i.postimg.cc/BnXpd4Cf/Opera-Snapshot-2022-10-20-160002-mellifluous-torte-f0f720-netlify-app.png" alt="">
+    <div id="j3">
+      <img style="height:300px; width:290px" src="https://i.postimg.cc/Sx6Ggrr6/d-funny-character-cartoon-sympathetic-looking-business-man-dear-person-suit-glasses-tie-47992420-tra.png" alt="">
+   <div style="text-align:start" id="jhead"><h2>interning</h2>
+  <p>I'm currently interning at New Grizzly Marketing Amsterdam, where I am further improving my skillset through WordPress and Google SEO's</p></div>
     </div>
   </div>
 </div>
 </section>
 <section id="testimonials">
-
+  <div id="testimonialss">
+  <div  id="heading3">
+    <h1>testimonials</h1>
+    <h5>what people have to say about me</h5>
+  </div>
+  <div id="people">
+   <div id="cards2">
+    <div id="testpic">
+      <img src="https://ca.slack-edge.com/T02LW4RMXJQ-U036JA3NVL5-45897a34dc43-512" alt="">
+    </div>
+    <div id="testhead">
+<h3>Jason Wandrag</h3>
+<h4>lecturer</h4>
+    </div>
+    <div id="thewords">
+      <p>Mudassar shows a lot of promise as a software developer. When he is focused, he works very diligently. I'm always happy seeing Mudassar grow as a developer, and I hope he continues to work hard.
+</p>
+    </div>
+   </div>
+   <div id="cards2">
+    <div id="testpic">
+      <img src="https://github.com/MudassarKhop/Real-Portoflio/blob/main/Tshimologo%20(2).JPG?raw=true" alt="">
+    </div>
+    <div id="testhead">
+<h3>Tsimologo King</h3>
+<h4>peer</h4>
+    </div>
+    <div id="thewords"> <p> I am profoundly impressed with his intense focus and commitment. I am convinced that he can make a more valuable contribution for future endeavours.</p></div>
+   </div>
+   <div id="cards2">
+    <div id="testpic">
+      <img src="https://github.com/MudassarKhop/Real-Portoflio/blob/main/Jesse%20(2).JPG?raw=true" alt="">
+    </div>
+    <div id="testhead">
+<h3>Jesse Spence</h3>
+<h4>peer</h4>
+    </div>
+    <div id="thewords">
+      <p>It is my great pleasure to have worked with Mudassar Khopatkar as he is a good team worker.He can collaborate and communicate with others on their ideas.</p>
+    </div>
+   </div>
+   <div id="cards2">
+    <div id="testpic">
+      <img src="https://github.com/MudassarKhop/Real-Portoflio/blob/main/Zoe%20(1).JPG?raw=true" alt="">
+    </div>
+    <div id="testhead">
+<h3>Zoe VDS</h3>
+<h4>peer</h4>
+    </div>
+    <div id="thewords">
+      <p>Mudassar khopatkar is a dedicated person , he strives to reach his goals and will put twice the amount of work in to achieve everything . He is a extremely talented person with many skills .</p>
+    </div>
+   </div>
+   <div id="cards2">
+    <div id="testpic">
+      <img src="https://github.com/MudassarKhop/Real-Portoflio/blob/main/Carla%20(1).JPG?raw=true" alt="">
+    </div>
+    <div id="testhead">
+<h3>Carla Lawrence</h3>
+<h4>peer</h4>
+    </div>
+    <div id="thewords">
+      <p>Mudassar Khopatkar is a highly competent and focused web developer. His friendly disposition draws his colleagues to him and he is impressionable to everyone he comes in contact with.</p>
+    </div>
+   </div>
+  </div>
+</div>
 </section>
 <section id="contact">
-
+ <div id="contactbox">
+  <div id="bimg">
+    <img src="https://i.postimg.cc/mZtX4KRV/d-funny-character-cartoon-sympathetic-looking-business-man-dear-person-suit-glasses-tie-47992412-tra.png" alt="">
+  </div>
+  <div id="form">
+    <form
+  action="https://formspree.io/f/mrgdynyj"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+  </div>
+ </div>
+</section>
+<section id="footer">
+  <div>
+    <h5>©2022-present | all-rights-reserved</h5>
+  </div>
 </section>
 </template>
 
@@ -259,7 +354,7 @@ margin-left: 30px;
   background-color: #ecb365;
  }
  #b2{
-background-color: #064663;
+background-color: #0b3447;
  }
  span{
   color: #ecb365;
@@ -349,7 +444,7 @@ background-color: #064663;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: end;
   align-content: center;
   /* border: 3px solid green; */
  }
@@ -359,8 +454,8 @@ background-color: #064663;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-items: start;
-  align-items: flex-start;
+  justify-items: end;
+  align-items: flex-end;
   padding: 20px;
   letter-spacing: 2px;
  }
@@ -477,7 +572,7 @@ border:3px solid red;
 	.container2 .box:hover {
 		transform: rotateY(0deg) scale(1.25);
 		z-index: 1;
-		box-shadow: 0 10px 15px #ecb365;
+		box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 	}
 	.container2 .box .imgBx {
 		position: absolute;
@@ -655,6 +750,17 @@ border:3px solid red;
   padding: 20px;
   letter-spacing: 2px;
  }
+ #heading3{
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-items: start;
+  align-items: flex-start;
+  padding: 20px;
+  letter-spacing: 2px;
+ }
 #languages{
   width: 100%;
   height: 65%;
@@ -671,6 +777,7 @@ border:3px solid red;
   background-color:#04293a ;
   width: 225px;
   height: 210px;
+  border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
@@ -745,26 +852,266 @@ border:3px solid red;
      }
      #cards{
       width: 249px;
-      height: 450px;
+      height: 400px;
       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
       background-color: #04293a;
      }
-     #proimg{
+     #imgcon{
       width: 100%;
       height: 40%;
-      aspect-ratio: 1/1;
+     }
+     #proimg{
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 1;
+     }
+     #titlepro{
+      width: 100%;
+      height: 35%;
+      /* border: 2px solid yellow; */
+      display: flex !important;
+      flex-direction: column !important;
+      flex-wrap: nowrap !important;
+      justify-content: center !important;
+      align-items: center !important;
+     }
+     #titlepro h1{
+      font-size: 23px;
+      letter-spacing: 1px;
+      color: white;
+      /* margin-bottom: 0 !important; */
+     }
+     #titlepro h5{
+      font-size: 17px;
+      letter-spacing: 1px;
+      /* margin-bottom: 0 !important; */
+     }
+     #modal{
+      width: 100%;
+      height: 25%;
+      /* border: 2px solid yellow; */
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      justify-content: center !important;
+      align-items: center !important;
+      /* margin-top: 10px;
+      margin-bottom: 10px; */
+      
+     }
+     .btn{
+      width: 80%;
+      height: 50%;
+      background-color: #ecb365;
+      border: none;
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      justify-content: center !important;
+      align-items: center !important;
+     }
+     .btn h5{
+      color: white;
+      font-size: 20px;
+      /* padding-top: 17px;
+      padding-bottom: 17px; */
+     }
+     #journey{
+      width: 80%;
+      height: 70%;
+      display: flex !important;
+      flex-direction: column !important;
+      flex-wrap: nowrap !important;
+      justify-content: center !important;
+      align-items: center !important;
+     }
+     #j1{
+      width: 100%;
+            display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      justify-content: start !important;
+      align-items: center !important;
+      
+     }
+     #j2{
+      width: 100%;
+            display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      justify-content: end !important;
+      align-items: center !important;
+     }
+     #j3{
+      width: 100%;
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      justify-content: start !important;
+      align-items: center !important;
+     }
+     #jhead h2{
+      color: #ecb365;
+      letter-spacing: 1px;
+     }
+     #jhead p{
+      color: rgba(255, 255, 255, 0.686);
+      font-size: 18px;
+      letter-spacing: 1px;
      }
  /* projects */
  /* testimonials */
  #testimonials{
   height: 100vh;
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  border-bottom: 1px solid #04293a;
+ }
+ #testimonialss{
+width: 90%;
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+ }
+ #cards2{
+  height: 500px;
+  width: 320px;
+  background-color: #04293a;
+  box-shadow: rgb(10, 15, 20) 0px 20px 30px -10px;  flex-direction: column;
+  border-radius: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+ #people{
+  width: 100%;
+  height: 80%;
+  /* border: 3px solid green; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+ }
+ #testpic{
+  width: 100%;
+  padding: 5px;
+  /* border: 1px solid red; */
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+ }
+ #testhead{
+  width: 100%;
+  /* border: 1px solid green; */
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+ }
+ #testhead h3{
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+ }
+ #testhead h4{
+  color: #ecb365;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+ }
+ #thewords{
+  width: 100%;
+  /* border: 1px solid yellow; */
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: flex-start;
+ }
+ #thewords p{
+  color: rgba(255, 255, 255, 0.686);
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+ }
+ #testpic img{
+  border-radius: 50%;
+  /* border: 5px solid #ecb365; */
+  height: 90%;
+  width: 60%;
+  aspect-ratio: 1;
  }
  /* testimonials */
  /* contact */
  #contact{
-  height: 100vh;
+  border-top: 1px solid #04293a;
+  height: 85vh;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+ }
+ #contactbox{
+  width: 85%;
+  height: 80%;
+  background-color: #04293a;
+  border-radius: 12px;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
+
+ #bimg{
+  height: 100%;
+  width: 40%;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-items: start !important;
+  align-content: center !important;
+ }
+ #bimg img{
+  width: 100%;
+  height: 80%;
+
  }
  /* contact */
+ #footer{
+  height: 5vh;
+  background-color: #04293a;
+ }
+ #footer h5{
+  font-size: 16px;
+  text-align: center;
+  color: rgba(223, 223, 223, 0.695);
+ }
+ #footer div{
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: start !important;
+  align-items: center !important;
+  width: 50%;
+  height: 100%;
+  padding-left: 20px;
+  padding-top: 15px;
+ }
 </style>
