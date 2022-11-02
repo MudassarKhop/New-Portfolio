@@ -1,11 +1,11 @@
 <template>
 <section id="homepage">
   <div id="socials">
-    <a href="">    <i class="fa-brands fa-github"></i>
-</a><a href="">    <i class="fa-brands fa-linkedin"></i>
-</a><a href="">    <i class="fa-brands fa-twitter"></i>
+    <a href="https://github.com/MudassarKhop" target="_blank">    <i class="fa-brands fa-github"></i>
+</a><a href="https://www.linkedin.com/in/mudassar-khopatkar-a9854023a/" target="_blank">    <i class="fa-brands fa-linkedin"></i>
+</a><a href="https://twitter.com/MudathierKop" target="_blank">    <i class="fa-brands fa-twitter"></i>
 </a>
-<a href=""><i class="fa-brands fa-instagram"></i></a>
+<a href="https://www.instagram.com/mudathierkop/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
     <div id="line"></div>
   </div>
 <div id="title">
@@ -128,6 +128,12 @@
 </div>
     <div>
     <i class="fa-brands fa-vuejs"></i></div>
+    <div>
+      <i class="fa-brands fa-node-js"></i></div>
+    <div>
+      <i class="fa-brands fa-windows"></i></div>
+    <div>
+      <i class="fa-solid fa-database"></i></div>
     <div>    <i class="fa-brands fa-wordpress"></i>
 </div>
   </div>
@@ -162,6 +168,106 @@
     <h1>my projects</h1>
     <h5>some of my work</h5>
   </div>
+  <div id="carousel">
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div id="projectcard">
+            <div id="projectimg">
+<img src="https://i.postimg.cc/15nH7n1H/Opera-Snapshot-2022-11-02-024001-cap-stone-mudassarkhopatkar-netlify-app.png" alt="">
+            </div>
+            <div id="buttonss">
+<button id="b1">RESUME</button>
+<button id="b2">CONTACT ME</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div id="projectcard">
+            <div id="projectimg">
+<img src="https://i.postimg.cc/15kKkm9Z/Opera-Snapshot-2022-11-02-024030-joint-eomp-netlify-app.png" alt="">
+            </div>
+            <div id="buttonss">
+              <button id="b1">RESUME</button>
+<button id="b2">CONTACT ME</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div id="projectcard">
+            <div id="projectimg">
+<img src="https://i.postimg.cc/fRYvZGLS/Opera-Snapshot-2022-11-02-024109-muda-autohaus-netlify-app.png" alt="">
+            </div>
+            <div id="buttonss">
+              <button id="b1">RESUME</button>
+<button id="b2">CONTACT ME</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div id="projectcard">
+            <div id="projectimg">
+<img src="https://i.postimg.cc/2yJx8mhh/Opera-Snapshot-2022-11-02-024131-mellifluous-torte-f0f720-netlify-app.png" alt="">
+            </div>
+            <div id="buttonss">
+              <button id="b1">RESUME</button>
+<button id="b2">CONTACT ME</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
   </div>
   <div id="testimonialsec">
     <div  id="heading3">
@@ -178,7 +284,7 @@
   </div>
 </div>
 <div id="passage2">
-<p>Mudassar shows a lot of promise as a software developer. His coding skills are gradually and steadily improving over time. I'm always happy seeing Mudassar grow as a developer, and I hope he continues to work hard.</p>
+<p>Mudassar shows a lot of promise as a software developer. I'm always happy seeing Mudassar grow as a developer, and I hope he continues to work hard.</p>
 </div>
     </div>
     <div id="testcard">
@@ -201,6 +307,9 @@
     <h5>colleague</h5>
   </div>
   </div>
+  <div id="passage2">
+<p>It is my great pleasure to have worked with Mudassar Khopatkar as he is a good team worker. He can collaborate and communicate with others on their ideas.</p>
+</div>
   </div>
   <div id="testcard">
   <div id="testimg">
@@ -210,6 +319,9 @@
     <h5>peer</h5>
   </div>
   </div>
+  <div id="passage2">
+<p>Mudassar khopatkar is a dedicated person, he strives to reach his goals and will put twice the amount of work in to achieve everything. He is a extremely talented person with many skills.</p>
+</div>
   </div>
   <div id="testcard">
   <div id="testimg">
@@ -219,6 +331,9 @@
     <h5>peer</h5>
   </div>
   </div>
+  <div id="passage2">
+<p>Mudassar is  highly competent and focused web developer. His friendly disposition draws his colleagues to him and he is impressionable to everyone he comes in contact with.</p>
+</div>
 </div>
 <div id="testcard">
   <div id="testimg">
@@ -228,6 +343,9 @@
     <h5>colleague</h5>
   </div>
   </div>
+  <div id="passage2">
+<p>Mudassar just generally emits friendly energy which reflects upon the people around him. I'm excited to see what the future holds for Mudassar and I hope he achieves everything he deserves. </p>
+</div>
 </div>
   </div>
   </div>
@@ -274,7 +392,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  border-bottom: 1px solid #04293a;
  }
  #title{
   /* border: 3px solid red; */
@@ -431,7 +548,6 @@ background-color: #0b3447;
   justify-content: center;
   align-content: center;
   height: 100vh;
-  border-bottom: 1px solid #04293a;
 
  }
  #about1{
@@ -733,11 +849,10 @@ border:3px solid red;
   justify-content: center;
   align-content: center;
   height: 100vh;
-  border-bottom: 1px solid #04293a;
   gap: 4%;
  }
  #stack{
-  width: 25%;
+  width: 38%;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -813,14 +928,42 @@ border:3px solid red;
       color: white;
       padding: 50px;
      }
+     .fa-windows{
+      font-size:100px ;
+      color: white;
+      padding: 50px;
+     }
+     .fa-node-js{
+      font-size:100px ;
+      color: white;
+      padding: 50px;
+     }
+     .fa-database{
+      font-size:100px ;
+      color: white;
+      padding: 50px;
+      transition: 0.6s ease-in;
+     }
      .fa-wordpress{
       font-size:100px ;
       color: white;
       padding: 50px;
      }
-     .fa-html5:hover{
+
+     .fa-github:hover{
       color: #ecb365;
       }  
+      .fa-node-js:hover{
+      color: #ecb365;
+      } 
+      .fa-windows:hover{
+      color: #ecb365;
+      transition: 0.6s ease-in;
+
+      } 
+      .fa-html5:hover{
+      color: #ecb365;
+      } 
      .fa-css3-alt:hover{
       color: #ecb365;
      }
@@ -837,7 +980,7 @@ border:3px solid red;
      color: #ecb365;
      }
      #projectss{
-      width: 55%;
+      width: 50%;
       height: 100%;
       display: flex;
   flex-direction: row;
@@ -963,26 +1106,26 @@ border:3px solid red;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  border-bottom: 1px solid #04293a;
  }
  #projectsec{
   height: 100%;
-  width: 50%;
-  border: 1px solid red;
+  width: 40%;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
- }
+padding-right: 5%;
+}
  #testimonialsec{
   height: 100%;
-  width: 50%;
+  width: 60%;
   /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: center;
   align-content: center;
   gap: 20px;
  }
@@ -993,10 +1136,12 @@ border:3px solid red;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
+  margin-bottom: 4%
+  ;
  }
  #testcard{
   width: 45%;
-  height: 35%;
+  height: 33%;
   background-color: #04293a;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 border-radius: 12px;
@@ -1013,6 +1158,7 @@ display: flex;
  #testimg{
   height: 40%;
   padding: 10px;
+  margin-left: 10px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -1038,14 +1184,45 @@ display: flex;
  }
  #passage2{
   height: 55%;
-  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  letter-spacing: 1px;
   font-size: 17px;
   color: rgba(255, 255, 255, 0.686);
- }
+}
+#passage2 p{
+  margin-bottom: 0;
+
+}
+#carousel{
+  height: 60%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-items: end;
+  align-content: flex-end;
+}
+.carousel {
+		height: 100%;
+		width: 100%;
+	}
+  span {
+		color: #d9b44a;
+		text-shadow: 1px 1px 2px black;
+	}
+	.carousel-inner {
+		border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-items: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
+
  /* testimonials */
  /* contact */
  #contact{
-  border-top: 1px solid #04293a;
   height: 100vh;
   display: flex !important;
   flex-direction: row !important;
@@ -1079,6 +1256,34 @@ display: flex;
   height: 80%;
 
  }
+ /* projectss */
+ #projectcard{
+  height:60%;
+  width: 60%;
+  background-color: #04293a;
+ }
+ #projectimg{
+  width: 100%;
+  height: 60%;
+  background-color:red ;
+ }
+ #projectimg img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover ;
+  aspect-ratio: 1;
+ }
+ #projectbuttons{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-items: center;
+  align-content: center;
+  background-color: #000;
+ }
+ /* projectss */
  /* contact */
  #footer{
   height: 5vh;

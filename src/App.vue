@@ -13,7 +13,10 @@
   font-family: Pro2;
   src: url(./assets/MardeSauvePersonalUse-ywaPd.ttf);
 }
-
+@font-face {
+  font-family: Pro7;
+  src: url(./assets/DechorRothen-3zGj8.otf);
+}
 @font-face {
   font-family: Pro3;
   src: url(./assets/MusticaproSemibold-2OG5o.otf);
