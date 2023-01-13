@@ -8,6 +8,9 @@
 <section id="projects">
 <StackPageCom />
 </section>
+<section id="work">
+<WorkPageCom />
+</section>
 <section id="testimonials">
   <TestimonialsPageCom />
 </section>
@@ -27,9 +30,10 @@ import AboutPageCom from '../components/AboutPageCom.vue';
 import StackPageCom from '../components/StackPageCom.vue';
 import TestimonialsPageCom from '../components/TestimonialsPageCom.vue';
 import ContactPageCom from '../components/ContactPageCom.vue';
+import WorkPageCom from '../components/WorkPageCom.vue';
 export default {
   components: {
-    HomePageCom, AboutPageCom, StackPageCom, TestimonialsPageCom, ContactPageCom
+    HomePageCom, AboutPageCom, StackPageCom, TestimonialsPageCom, ContactPageCom, WorkPageCom
   }
 }
 </script>
@@ -66,6 +70,16 @@ export default {
   gap: 4%;
  }
   /* projects */
+  /* work */
+  #work{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  /* work */
  /* testimonials */
  #testimonials{
   height: 100vh;

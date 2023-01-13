@@ -47,14 +47,14 @@ p{
   font-family: Pro3;
 }
 span{
-  font-family: Pro2;
+  font-family: Pro;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: #041c32;
+  background-color: #041424;
   
   color: #2c3e50;
 }

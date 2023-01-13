@@ -8,9 +8,9 @@
     <div id="line"></div>
   </div>
 <div id="title">
-<h3>HI THERE,</h3>
-<h1>I'M <span>Mudassar Khopatkar</span></h1>
-<h2>AN ASPIRING WEB-DEVELOPER </h2>
+<h3>HI THERE<span>,</span></h3>
+<h1>I'M <span>MUDASSAR KHOPATKAR</span>;</h1>
+<h2>ASPIRING <span>WEB-DEVELOPER</span></h2>
 <div id="buttons">
   <button id="b1">RESUME</button>
   <button id="b2">CONTACT ME</button>
@@ -20,7 +20,6 @@
 </div>
 </div>
 <div id="picture">
-<img id="png" src="https://i.postimg.cc/x1sTCpVB/pngaaa-com-3147707.png" alt="">
 </div>
 </template>
 <script>
@@ -40,7 +39,7 @@ export default {
  #title{
   /* border: 3px solid red; */
   height: 100%;
-  width:44%;
+  width:64%;
   text-align: start;
   color: white;
   display: flex;
@@ -51,32 +50,32 @@ export default {
   
  }
  #title h3{
+  font-size: 75px;
+  letter-spacing: 2px;
+  color: rgb(223, 223, 223);
+  text-shadow: 0 5px 5px black;
+  font-weight:500 ;
+ }
+ #title h1{
+  font-size: 75px;
+  letter-spacing: 4px;
+  color: rgb(223, 223, 223);
+  text-shadow: 0 5px 5px black;
+
+  font-weight: 700;
+  }
+   #title h2{
   font-size: 25px;
   letter-spacing: 2px;
   color: rgb(223, 223, 223);
   text-shadow: 0 5px 5px black;
-  margin-bottom: 30px;
-  font-weight:500 ;
- }
- #title h1{
-  font-size: 45px;
-  letter-spacing: 4px;
-  color: rgb(223, 223, 223);
-  text-shadow: 0 5px 5px black;
-  margin-bottom: 30px;
-  font-weight: 700;
-  }
-   #title h2{
-  font-size: 30px;
-  letter-spacing: 2px;
-  color: rgb(223, 223, 223);
-  text-shadow: 0 5px 5px black;
   font-weight: 500 ;
+  margin-bottom: 0;
  }
  #picture{
   /* border: 3px solid red; */
   height: 100%;
-  width:44%;
+  width:24%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

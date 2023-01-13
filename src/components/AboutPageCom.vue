@@ -2,7 +2,7 @@
   <div id="about2" >
   <div id="heading">
     <h1>about me</h1>
-    <h5>20 years young / cape town / intern</h5>
+    <h5>20 years young <span>/</span> cape town <span>/</span> intern</h5>
   </div>
   <div id="passage">
     <p>I'm an ambitious, focused and determined individual. I'm also very
@@ -91,6 +91,9 @@ export default {
 }
 </script>
 <style scoped>
+span{
+	color: white;
+}
      #about{
   display: flex;
   flex-direction: row;
@@ -131,6 +134,7 @@ export default {
   align-items: flex-end;
   padding: 20px;
   letter-spacing: 2px;
+
  }
   h5{
   color: #ecb365;
@@ -139,7 +143,7 @@ export default {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content:center;
+  justify-items:center;
   align-content: center;
   /* background-color: ; */
   width: 80%;
@@ -149,8 +153,8 @@ export default {
  }
  #passage p{
   color: rgba(255, 255, 255, 0.686);
-  text-align: start;
-  font-size: 18px;
+  text-align: end;
+  font-size: 20px;
   letter-spacing: 1px;
   padding-left: 13px;
   padding-bottom: 13px;
@@ -218,6 +222,7 @@ border:3px solid red;
 .container2 {
 		position: relative;
 		margin-left: 20px;
+		margin-top: 20px;
 		width: 100%;
 		display: flex;
 		justify-content: center;

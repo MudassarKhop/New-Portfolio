@@ -18,23 +18,23 @@ export default {
 </script>
 <style scoped>
 #heading{
-    width: 100%;
-    height: 15%;
+    width: 83%;
+    height: 10%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: flex-start;
 }
 #heading h1{
     color: white;
-    text-align: center;
+    text-align: left;
     letter-spacing: 2px;
 
 }
 #heading h5{
     color: #ecb365;
-    text-align: center;
+    text-align: left;
     letter-spacing: 1px;
 }
 #cards{
