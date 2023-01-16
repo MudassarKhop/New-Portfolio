@@ -40,6 +40,9 @@ h2{
 h1{
   font-family: Pro;
 }
+h4{
+  font-family: Pro;
+}
 h5{
   font-family: Pro;
 }

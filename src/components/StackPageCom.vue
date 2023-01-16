@@ -33,18 +33,18 @@
   <div id="journey">
     <div id="j1">
       <img style="height:300px; width:200px" src="https://i.postimg.cc/sfBjRZ7G/kindpng-567305-removebg-preview.png" alt="">
-<div style="text-align:start" id="jhead"><h2>schooling</h2>
+<div style="text-align:start" id="jhead"><h2>schooling</h2><h4>2016-2021</h4>
 <p>In the period of 2016-2021, I attended Rylands High School in the Athlone area. During this period I failed Grade 11 once and I'd like to believe this was the turning point in my life that motivated me to work harder to achieve my dream career in coding. </p></div>
     </div>
     <div id="j2">
-      <div style="text-align:end" id="jhead"><h2>coding</h2>
+      <div style="text-align:end" id="jhead"><h2>coding</h2><h4>2022-2023</h4>
      <p>I learnt how to code at <span>Life Choices Academy</span> in the bootcamp from March-September. This opportunity was handed to me by highschool <span>math teacher</span> who saw the potential within me. This is where I picked up my stack on the left under some of the best lecturers.</p></div>
       <img style="height:310px; width:300px" src="https://i.postimg.cc/Qd3tJkVZ/d-funny-character-cartoon-sympathetic-looking-business-man-dear-person-suit-glasses-tie-47992402-tra.png" alt="">
     </div>
     <div id="j3">
       <img style="height:300px; width:290px" src="https://i.postimg.cc/Sx6Ggrr6/d-funny-character-cartoon-sympathetic-looking-business-man-dear-person-suit-glasses-tie-47992420-tra.png" alt="">
-   <div style="text-align:start" id="jhead"><h2>interning</h2>
-  <p>I'm currently interning at <span>New Grizzly Marketing Amsterdam</span>, where I am further improving my skillset through <span>WordPress</span> and <span>Google SEO's</span></p></div>
+   <div style="text-align:start" id="jhead"><h2>interning</h2><h4>Sep 2022-Dec 2022</h4>
+  <p>I interned at <span>New Grizzly Marketing Amsterdam</span>, where I further improved my skillset through <span>WordPress</span> and <span>Google SEO's</span>.</p></div>
     </div>
   </div>
 </div>
@@ -204,14 +204,14 @@ span{
      color: #ecb365;
      }
      #projectss{
-margin-top: 40px;
+      margin-top: 35px;
       width: 50%;
       height: 100%;
       display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
       /* border: 3px solid red; */
 
      }
@@ -324,8 +324,13 @@ margin-top: 40px;
 
      }
      #jhead h2{
-      color: #ecb365;
+      color: white;
       letter-spacing: 1px;
+     }
+     #jhead h4{
+      color: #ecb365;
+  text-shadow: none;
+  letter-spacing: 1px;
      }
      #jhead p{
       color: rgba(255, 255, 255, 0.686);

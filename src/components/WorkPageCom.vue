@@ -4,7 +4,6 @@
         <h5>some of my work and projects</h5>
     </div>
     <div id="projects">
-
     </div>
 </template>
 <script>
@@ -38,4 +37,6 @@ export default {
     width: 100%;
     border: 3px solid red;
 }
+/* Diamond styling */
+
 </style>
