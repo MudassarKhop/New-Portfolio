@@ -204,7 +204,7 @@ span{
      color: #ecb365;
      }
      #projectss{
-      margin-top: 35px;
+      margin-top: 10px;
       width: 50%;
       height: 100%;
       display: flex;
@@ -335,6 +335,6 @@ span{
      #jhead p{
       color: rgba(255, 255, 255, 0.686);
       font-size: 20px;
-      letter-spacing: 1px;
+      letter-spacing: 2px;
      }
 </style>
