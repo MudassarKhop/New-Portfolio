@@ -12,8 +12,8 @@
 <h1>I'M <span>MUDASSAR KHOPATKAR</span>;</h1>
 <h2>ASPIRING <span>WEB-DEVELOPER</span></h2>
 <div id="buttons">
-  <button id="b1">RESUME</button>
-  <button id="b2">CONTACT ME</button>
+  <button id="b1"><a href="https://pdfhost.io/v/k9cqIU0~k_MudassarKhopatkarCV" target="_blank">RESUME</a></button>
+  <button id="b2"> <a href="#contact">CONTACT ME</a></button>
 </div>
 <div class="png2">
   <img id="png2" src="https://i.postimg.cc/VNmx3t74/image.png" alt="">
@@ -28,8 +28,18 @@ export default {
 }
 </script>
 <style>
+a{
+  text-decoration: none;
+  color: white;
+  transition: 0.1s ease-in;
+
+}
+a:hover{
+  transition: 0.1s ease-in;
+color: rgba(255, 255, 255, 0.87);
+}
      #homepage{
-  height: 101vh;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -114,11 +124,19 @@ margin-left: 30px;
   color: rgb(223, 223, 223);
   font-family: Pro;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   text-shadow: 0 4px 4px black;
+  transition: 0.2s ease-in;
+
+ }  
+ button:hover{
+  transition: 0.2s ease-in;
+  box-shadow: rgb(159 143 79 / 56%) 0px 22px 70px 4px;
+  color: rgba(255, 255, 255, 0.87);
+
  }
  #b1{
-  background-color: #ecb365;
+  background-color: #c69653;
  }
  #b2{
 background-color: #0b3447;

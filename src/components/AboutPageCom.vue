@@ -250,8 +250,7 @@ border:3px solid red;
 	.container2 .box:hover {
 		transform: rotateY(0deg) scale(1.25);
 		z-index: 1;
-		box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-	}
+		box-shadow: rgb(159 143 79 / 56%) 0px 22px 70px 4px;	}
 	.container2 .box .imgBx {
 		position: absolute;
 		top: 0;

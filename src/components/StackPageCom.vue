@@ -204,7 +204,7 @@ span{
      color: #ecb365;
      }
      #projectss{
-      margin-top: 10px;
+      margin-top: 25px;
       width: 50%;
       height: 100%;
       display: flex;
@@ -262,23 +262,6 @@ span{
       letter-spacing: 1px;
       /* margin-bottom: 0 !important; */
      }
-     .btn{
-      width: 80%;
-      height: 50%;
-      background-color: #ecb365;
-      border: none;
-      display: flex !important;
-      flex-direction: row !important;
-      flex-wrap: nowrap !important;
-      justify-content: center !important;
-      align-items: center !important;
-     }
-     .btn h5{
-      color: white;
-      font-size: 20px;
-      /* padding-top: 17px;
-      padding-bottom: 17px; */
-     }
      #journey{
       width: 80%;
       height: 70%;
@@ -331,6 +314,7 @@ span{
       color: #ecb365;
   text-shadow: none;
   letter-spacing: 1px;
+  margin-bottom: 15px !important;
      }
      #jhead p{
       color: rgba(255, 255, 255, 0.686);

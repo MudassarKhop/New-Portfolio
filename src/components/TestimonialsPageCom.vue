@@ -23,8 +23,8 @@ export default {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: start;
-    align-items: flex-start;
+    justify-content: end;
+    align-items: flex-end;
 }
 #heading h1{
     color: white;

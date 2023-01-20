@@ -1,15 +1,14 @@
 <template>
-<div id="words">
+    <section id="projects">
+        <div id="words">
     <div id="heading">
-            <h1>featured projects</h1>
-            <h5>some of my work and projects</h5>
+            <h1>all projects</h1>
+            <h5>everyone I worked on in the academy</h5>
         </div>
         <div id="heading1">
-            <button id="b1"><a href="https://www.github.com/mudassarkhop/" target="_blank">GITHUB</a></button>
-  <button id="b2"><router-link @click.native="scrollToTop" to="/projects">All Projects</router-link></button>
+  <button id="b2"><router-link to="/">Home</router-link></button>
         </div>
 </div>
-    <div id="projects">
             <div id="card">
                 <div id="img">
                     <img src="https://i.postimg.cc/L5txVCqv/Screenshot-17.png" alt="">
@@ -37,80 +36,56 @@
                   <p>Car website built with <span>BootStrap</span> and filters made with <span>JavaScript</span>.</p>
                 </div>
             </div>
-    </div>
+            <div id="card">
+                <div id="img">
+                    <img src="https://i.postimg.cc/c4HQbnJQ/Screenshot-21.png" alt="">
+                </div>
+                <div id="name">
+                  <h1>Group Ecom Project</h1>
+                  <p>Full Stack project built with <span>VUE.js</span> and <span>NODE.js</span> backend.</p>
+                </div>
+            </div>
+            <div id="card">
+                <div id="img">
+                    <img src="https://i.postimg.cc/hGFTvZ1r/Screenshot-22.png" alt="">
+                </div>
+                <div id="name">
+                  <h1>Restuarantly Mockup</h1>
+                  <p>Task was to replicate the mockup website using <span>BootStrap</span>.</p>
+                </div>
+            </div>
+            <div id="card">
+                <div id="img">
+                    <img src="https://i.postimg.cc/hP59WtJN/Screenshot-23.png" alt="">
+                </div>
+                <div id="name">
+                  <h1>Vue Portfolio</h1>
+                  <p>Final portfolio in the coding academy using <span>Vue.js</span> aswell as <span>JavaScript</span>.</p>
+                </div>
+            </div>
+    </section>
 </template>
 <script>
 export default {
-    methods: { 
-  scrollToTop() {
-    window.scrollTo(0,0);
-  }
-}
+    
 }
 </script>
 <style scoped>
-a{
-    text-decoration:none;
-    color: white;
-}
 span{
     color: white;
+    text-decoration: none;
     text-shadow: none;
-    letter-spacing: 1px;
-}
-
-#words{
-    width: 100%;
-    height: 13%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;  
-}
-#heading{
-    width: 44%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: flex-start;
-
-}
-#heading1{
-    width: 44%;
-    display: flex;
-    flex-direction: row ;
-    flex-wrap: nowrap;
-    justify-content: end;
-    align-items: flex-end;
-    gap: 20px;
-
-}
-#heading h1{
-    color: white;
-    text-align: left;
-    letter-spacing: 2px;
-    justify-content: start;
-    align-items: flex-start;
-
-}
-#heading h5{
-    color: #ecb365;
-    text-align: left;
-    letter-spacing: 1px;
-    justify-content: start;
-    align-items: flex-start;
 }
 #projects{
-    height: 65%;
     width: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
+    height: 100%;
+    gap: 50px;
+    padding-top: 20px;
     /* border: 3px solid red; */
 }
 #card{
@@ -119,7 +94,7 @@ span{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    height: 95%;
+    height: 650px;
     width: 27%;
     border-radius: 12px;
     transition: 0.3s ease-in;
@@ -163,6 +138,58 @@ img{
     font-size: 22px;
     text-align: start;
     margin-bottom: none !important;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+span{
+    color: white;
+    text-shadow: none;
+    letter-spacing: 1px;
+}
 
+#words{
+    width: 97%;
+    height: 13%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;  
+}
+#heading{
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: flex-start;
+
+}
+#heading1{
+    width: 44%;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: flex-end;
+    gap: 20px;
+
+}
+#heading h1{
+    color: white;
+    text-align: left;
+    letter-spacing: 2px;
+    justify-content: start;
+    align-items: flex-start;
+
+}
+#heading h5{
+    color: #ecb365;
+    text-align: left;
+    letter-spacing: 1px;
+    justify-content: start;
+    align-items: flex-start;
 }
 </style>
