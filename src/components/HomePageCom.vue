@@ -8,7 +8,7 @@
     <div id="line"></div>
   </div>
 <div id="title">
-<h3>HI THERE<span>,</span></h3>
+<h3>HI THERE,</h3>
 <h1>I'M <span>MUDASSAR KHOPATKAR</span>;</h1>
 <h2>ASPIRING <span>WEB-DEVELOPER</span></h2>
 <div id="buttons">
@@ -18,8 +18,6 @@
 <div class="png2">
   <img id="png2" src="https://i.postimg.cc/VNmx3t74/image.png" alt="">
 </div>
-</div>
-<div id="picture">
 </div>
 </template>
 <script>
@@ -43,13 +41,13 @@ color: rgba(255, 255, 255, 0.87);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  justify-content: start !important;
+  align-items: center !important;
  }
  #title{
   /* border: 3px solid red; */
   height: 100%;
-  width:64%;
+  width:80%;
   text-align: start;
   color: white;
   display: flex;
@@ -60,14 +58,14 @@ color: rgba(255, 255, 255, 0.87);
   
  }
  #title h3{
-  font-size: 75px;
+  font-size: 45px;
   letter-spacing: 2px;
   color: rgb(223, 223, 223);
   text-shadow: 0 5px 5px black;
   font-weight:500 ;
  }
  #title h1{
-  font-size: 75px;
+  font-size: 85px;
   letter-spacing: 4px;
   color: rgb(223, 223, 223);
   text-shadow: 0 5px 5px black;
@@ -75,22 +73,12 @@ color: rgba(255, 255, 255, 0.87);
   font-weight: 700;
   }
    #title h2{
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 2px;
   color: rgb(223, 223, 223);
   text-shadow: 0 5px 5px black;
   font-weight: 500 ;
   margin-bottom: 0;
- }
- #picture{
-  /* border: 3px solid red; */
-  height: 100%;
-  width:24%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: start;
-  align-content: center;
  }
  #socials{
   /* border: 3px solid red; */

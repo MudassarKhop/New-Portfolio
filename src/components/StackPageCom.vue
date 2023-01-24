@@ -112,7 +112,7 @@ span{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: end;
-  align-content: flex-end;
+  align-content: center;
   gap: 20px;
 
 }
@@ -204,7 +204,7 @@ span{
      color: #ecb365;
      }
      #projectss{
-      margin-top: 25px;
+      margin-top: 30px;
       width: 50%;
       height: 100%;
       display: flex;

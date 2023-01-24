@@ -222,7 +222,7 @@ border:3px solid red;
 .container2 {
 		position: relative;
 		margin-left: 20px;
-		margin-top: 20px;
+		margin-top: 45px;
 		width: 100%;
 		display: flex;
 		justify-content: center;
