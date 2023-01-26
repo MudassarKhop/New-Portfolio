@@ -92,7 +92,7 @@ export default {
  /* testimonials */
  /* contact */
  #contact{
-  height: 100vh;
+  height: 95vh;
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;

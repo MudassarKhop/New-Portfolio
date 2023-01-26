@@ -204,14 +204,14 @@ span{
      color: #ecb365;
      }
      #projectss{
-      margin-top: 30px;
+      margin-top: 25px;
       width: 50%;
       height: 100%;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
-      align-content: center;
+      align-items: center;
       /* border: 3px solid red; */
 
      }

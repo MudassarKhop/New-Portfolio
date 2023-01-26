@@ -6,12 +6,12 @@
             <h5>everyone I worked on in the academy</h5>
         </div>
         <div id="heading1">
-  <button id="b2"><router-link to="/">Home</router-link></button>
+  <button id="b2" @click="homePage()">Home</button>
         </div>
 </div>
             <div id="card">
                 <div id="img">
-                    <img src="https://i.postimg.cc/L5txVCqv/Screenshot-17.png" alt="">
+                    <img loading="lazy" src="https://i.postimg.cc/L5txVCqv/Screenshot-17.png" alt="">
                 </div>
                 <div id="name">
                   <h1>CapStone Project</h1>
@@ -20,7 +20,7 @@
             </div>
             <div id="card">
                 <div id="img">
-                    <img src="https://i.postimg.cc/prVJv2cb/Screenshot-18.png" alt="">
+                    <img loading="lazy" src="https://i.postimg.cc/prVJv2cb/Screenshot-18.png" alt="">
                 </div>
                 <div id="name">
                   <h1>Node Final Project</h1>
@@ -29,7 +29,7 @@
             </div>
             <div id="card">
                 <div id="img">
-                    <img src="https://i.postimg.cc/3xvdfsrK/Screenshot-19.png" alt="">
+                    <img loading="lazy" src="https://i.postimg.cc/3xvdfsrK/Screenshot-19.png" alt="">
                 </div>
                 <div id="name">
                   <h1>Car Website</h1>
@@ -38,7 +38,7 @@
             </div>
             <div id="card">
                 <div id="img">
-                    <img src="https://i.postimg.cc/c4HQbnJQ/Screenshot-21.png" alt="">
+                    <img loading="lazy" src="https://i.postimg.cc/c4HQbnJQ/Screenshot-21.png" alt="">
                 </div>
                 <div id="name">
                   <h1>Group Ecom Project</h1>
@@ -47,7 +47,7 @@
             </div>
             <div id="card">
                 <div id="img">
-                    <img src="https://i.postimg.cc/hGFTvZ1r/Screenshot-22.png" alt="">
+                    <img loading="lazy" src="https://i.postimg.cc/hGFTvZ1r/Screenshot-22.png" alt="">
                 </div>
                 <div id="name">
                   <h1>Restuarantly Mockup</h1>
@@ -56,7 +56,7 @@
             </div>
             <div id="card">
                 <div id="img">
-                    <img src="https://i.postimg.cc/hP59WtJN/Screenshot-23.png" alt="">
+                    <img loading="lazy" src="https://i.postimg.cc/hP59WtJN/Screenshot-23.png" alt="">
                 </div>
                 <div id="name">
                   <h1>Vue Portfolio</h1>
@@ -66,8 +66,14 @@
     </section>
 </template>
 <script>
+import router from '@/router';
+
 export default {
-    
+    methods: {
+        homePage() {
+            window.location = '/'
+        }
+    }
 }
 </script>
 <style scoped>

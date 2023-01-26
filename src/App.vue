@@ -61,6 +61,9 @@ span{
   
   color: #2c3e50;
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 #logo{
   width: 30%;
   /* border: 3px solid white; */
