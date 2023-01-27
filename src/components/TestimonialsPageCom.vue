@@ -89,17 +89,15 @@
 
 export default {
      created() {
-        // window.onload = function() {
-        //     console.log(router)
-        
-// }
-        setTimeout( () => {
+         const indicators = document.querySelector('ul.indicators');
+         console.log(indicators)
+         setTimeout( () => {
             const slider1 = document.querySelector('.slider-wrapper');
         slider1.style.removeProperty('height')
         slider1.style.removeProperty('perspective')
         slider1.style.perspective = '1500px'
         slider1.style.height = '730px'
-// console.log('hello')
+        indicators.style.display = 'none'
      
 }, 1000);
 this.Slider()
@@ -114,7 +112,7 @@ this.Slider()
   
   const __ms = document.querySelector('.micro-slider');
   
-  const __msSlider = new MicroSlider(__ms, { indicators: true, indicatorText: '' });
+  const __msSlider = new MicroSlider(__ms, {});
   
   const hammer = new Hammer(__ms);
   
@@ -236,7 +234,9 @@ a {
     z-index: 1;
     margin-top: 300px;
 }
-
+ul.indicators {
+    display: none !important;
+}
 .prevv {
     font-size: 35px;
     position: absolute;
@@ -353,7 +353,7 @@ border-bottom-right-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.micro-slider ul {
+.micro-slider ul{
     display: none;
 }
 

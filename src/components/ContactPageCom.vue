@@ -16,7 +16,7 @@
   </label>
   <label id="email">
     <input id="e1" type="email" name="email" placeholder="Email">
-    <input id="n1" type="number" name="email" placeholder="Number">
+    <input id="n1" type="tel" name="number" placeholder="Number">
   </label>
   <label id="message">
     <textarea name="message" placeholder="Message"></textarea>
@@ -70,10 +70,14 @@ textarea{
   font-size: 25px;
   font-family: Pro;
   letter-spacing: 2px;
+  overflow-y: scroll;
 }
 textarea:placeholder-shown{
   font-size: 22px;
   font-family: Pro;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 #name{
   display: flex;
