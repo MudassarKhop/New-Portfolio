@@ -9,33 +9,90 @@
   <button id="b2" @click="homePage()">Home</button>
         </div>
 </div>
-            <div id="card">
+<div id="card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <div id="img">
-                    <img loading="lazy" src="https://i.postimg.cc/L5txVCqv/Screenshot-17.png" alt="">
+                    <img src="https://i.postimg.cc/L5txVCqv/Screenshot-17.png" alt="">
                 </div>
                 <div id="name">
                   <h1>CapStone Project</h1>
                   <p>Full Stack project built with <span>VUE.js</span> and <span>NODE.js</span> backend.</p>
                 </div>
             </div>
-            <div id="card">
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal -->
+<div id="card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                 <div id="img">
-                    <img loading="lazy" src="https://i.postimg.cc/prVJv2cb/Screenshot-18.png" alt="">
+                    <img src="https://i.postimg.cc/prVJv2cb/Screenshot-18.png" alt="">
                 </div>
                 <div id="name">
                   <h1>Node Final Project</h1>
                   <p>Ecommerce end of module project built in <span>NODE.js</span> to test backend skills.</p>
                 </div>
             </div>
-            <div id="card">
+            <!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal titlee</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal -->
+<div id="card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                 <div id="img">
-                    <img loading="lazy" src="https://i.postimg.cc/3xvdfsrK/Screenshot-19.png" alt="">
+                    <img src="https://i.postimg.cc/3xvdfsrK/Screenshot-19.png" alt="">
                 </div>
                 <div id="name">
                   <h1>Car Website</h1>
                   <p>Car website built with <span>BootStrap</span> and filters made with <span>JavaScript</span>.</p>
                 </div>
             </div>
+                     <!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal titlee3</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal -->
             <div id="card">
                 <div id="img">
                     <img loading="lazy" src="https://i.postimg.cc/c4HQbnJQ/Screenshot-21.png" alt="">
@@ -197,5 +254,8 @@ span{
     letter-spacing: 1px;
     justify-content: start;
     align-items: flex-start;
+}
+.modal{
+    background-color: #04293a;
 }
 </style>

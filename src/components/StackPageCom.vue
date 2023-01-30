@@ -16,7 +16,7 @@
     <div>
     <i class="fa-brands fa-vuejs"></i></div>
     <div>
-      <i class="fa-brands fa-node-js"></i></div>
+      <i class="fa-solid fa-database"></i></div>
     <div>
       <i class="fa-brands fa-php"></i></div>
     <div>
@@ -154,12 +154,12 @@ span{
       color: white;
       padding: 50px;
      }
-     .fa-node-js{
+     .fa-node{
       font-size:100px ;
       color: white;
       padding: 50px;
      }
-     .fa-node{
+     .fa-database{
       font-size:100px ;
       color: white;
       padding: 50px;
@@ -171,7 +171,7 @@ span{
       padding: 50px;
      }
 
-     .fa-github:hover{
+     .fa-database:hover{
       color: #ecb365;
       } 
       .fa-node:hover{
@@ -229,7 +229,6 @@ span{
       width: 249px;
       height: 400px;
       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
       background-color: #04293a;
      }
      #imgcon{

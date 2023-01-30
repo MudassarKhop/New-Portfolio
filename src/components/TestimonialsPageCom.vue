@@ -9,7 +9,8 @@
      <div class="micro-slider">
         <div class="slider-item s1">
              <div class="slider-card">
-                <img loading="lazy" src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="course_image">
+                <img loading="lazy" src="https://i.postimg.cc/Qx94pNhP/T02-LW4-RMXJQ-U036-JA3-NVL5-45897a34dc43-512-1.jpg" class="course_image">
+                <div class="overlay"></div>
                 <div class="slider-item-info">
                 <div class="slider-item-description">
                    <div>
@@ -23,12 +24,13 @@
           </div>
           <div class="slider-item s2">
              <div class="slider-card">
-                <img loading="lazy" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="course_image">
+                <img loading="lazy" src="https://i.postimg.cc/02XhPJjz/Optimized-Carla-1.jpg" class="course_image">
+                                <div class="overlay"></div>
+
                 <div class="slider-item-info">
                 <div class="slider-item-description">
                    <div>
-                       Mudassar is a highly competent and focused web developer.He is impressionable to everyone he comes in contact with.
-                   </div>
+                    Mudassar is a highly competent, focused web developer. His friendly disposition draws his colleagues to him, he is impressionable to everyone he comes in contact with.                   </div>
                 </div>
                 <div class="course-title">-Carla Amy Lawrence</div>
                 <div class="course-title2">peer</div>
@@ -37,11 +39,13 @@
           </div>
           <div class="slider-item s3">
              <div class="slider-card">
-                <img loading="lazy" src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="course_image">
+                <img loading="lazy" src="https://i.postimg.cc/D0MnbpvG/Optimized-Jesse-2.jpg" class="course_image">
+                                <div class="overlay"></div>
+
                 <div class="slider-item-info">
                 <div class="slider-item-description">
                    <div>
-                        Great pleasure to have worked with Mudassar Khopatkar as he is a good team worker. Wish him well for the future.
+                    It is my great pleasure to have worked with Mudassar Khopatkar as he is a good team worker.He can collaborate and communicate with others on their ideas.
                    </div>
                 </div>
                  <div class="course-title">-Jesse Spence</div>
@@ -51,7 +55,9 @@
           </div>
           <div class="slider-item s4">
              <div class="slider-card">
-                <img loading="lazy" src="https://images.unsplash.com/photo-1572025442646-866d16c84a54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="course_image">
+                <img loading="lazy" src="https://i.postimg.cc/sXTSLW9c/Optimized-Ricardo-2.jpg" class="course_image">
+                                <div class="overlay"></div>
+
                 <div class="slider-item-info">
                 <div class="slider-item-description">
                    <div>
@@ -66,7 +72,9 @@
 
           <div class="slider-item s5">
              <div class="slider-card">
-                <img loading="lazy" src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1498&q=80" class="course_image">
+                <img loading="lazy" src="https://i.postimg.cc/BbktGn1R/Optimized-Tshimologo-2.jpg" class="course_image">
+                                <div class="overlay"></div>
+
                 <div class="slider-item-info">
                 <div class="slider-item-description">
                    <div>
@@ -94,6 +102,7 @@ export default {
          setTimeout( () => {
             const slider1 = document.querySelector('.slider-wrapper');
         slider1.style.removeProperty('height')
+        slider1.style.removeProperty('overflow')
         slider1.style.removeProperty('perspective')
         slider1.style.perspective = '1500px'
         slider1.style.height = '730px'
@@ -201,7 +210,7 @@ document.getElementById("prevv").addEventListener('click', (e) => {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -218,6 +227,7 @@ div,
 a {
     font-family: Pro;
     letter-spacing: 2px;
+    font-size: 19px;
 }
 
 .nextt {
@@ -284,28 +294,30 @@ ul.indicators {
 
 .slider-item-info {
     padding: 25px;
+    height: 300px;
     width: 500px !important;
     background-color: #04293a;
 border-bottom-left-radius: 20px;
 border-bottom-right-radius: 20px;
 
 }
-
 .slider-item-description {
-    height: 20%;
+    height: 53%;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 20px;
     font-size: 19px;
     color: rgba(255, 255, 255, 0.686);
-   
-
 }
 
 .course_image {
+    aspect-ratio: 1/2;
+    object-fit: cover;
+    height: 350px;
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    
 }
 
 .course-title {
@@ -379,5 +391,24 @@ border-bottom-right-radius: 20px;
     .slider-item {
         width: 90% !important;
     }
+}
+.overlay {
+    position: absolute;
+  top: 210px;
+  height: 141px;
+		background-image: -webkit-linear-gradient(
+			top,
+			transparent 0%,
+			#ffffff 100%
+		);
+		background-image: linear-gradient(to bottom, transparent 0%, #04293a 100%);
+  width: 500px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  opacity: 1;
 }
 </style>

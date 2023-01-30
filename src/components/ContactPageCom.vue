@@ -1,7 +1,7 @@
 <template>
  <div id="contactbox">
   <div id="bimg">
-    <!-- <img src="https://i.postimg.cc/mZtX4KRV/d-funny-character-cartoon-sympathetic-looking-business-man-dear-person-suit-glasses-tie-47992412-tra.png" alt=""> -->
+    <img src="https://i.postimg.cc/nzgqMCGH/toppng-com-sending-email-gif-transparent-2000x2000.png" alt="">
   </div>
   <div id="form">
     <div id="heading">
@@ -45,7 +45,10 @@ export default {
     justify-content: start;
     align-items: flex-start;
 }
-
+#bimg img{
+height: 70%;
+width: 70%;
+}
 #heading h1 {
     color: white;
     text-align: right;
@@ -156,15 +159,22 @@ input:placeholder-shown {
   gap: 20px;
 }
 form{
-  margin-top: 22px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 25px;
+  gap: 35px;
 }
 button{
-  color: rgba(255, 255, 255, 0.686);
+  color: white;
   box-shadow: none;
+}
+#b1:hover{
+  box-shadow: rgb(159 143 79 / 56%) 0px 22px 70px 4px;
+
+}
+#b2:hover{
+  box-shadow: rgb(159 143 79 / 56%) 0px 22px 70px 4px;
 }
 </style>
