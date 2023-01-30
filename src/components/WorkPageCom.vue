@@ -31,8 +31,8 @@
         <p>Full Stack project built with <span>VUE.js</span> and <span>NODE.js</span> backend. This project was the final project of the academy, it tested our backend and frontend skills in one go.</p>
       </div>
       <div class="modal-footer">
-        <button id="b3"><a href="https://www.github.com/mudassarkhop/" target="_blank">GITHUB</a></button>
-        <button id="b4"><a href="#">Live Link</a></button>
+        <button id="b3"><a href="https://github.com/MudassarKhop/CapStone-FrontEnd" target="_blank">GITHUB</a></button>
+        <button id="b4"><a href="https://cap-stone-mudassarkhopatkar.netlify.app" target="_blank">Live Link</a></button>
       </div>
     </div>
   </div>
@@ -58,8 +58,8 @@
       <div class="modal-body">
         <p>Ecommerce end of module project built in <span>NODE.js</span> to test backend skills. On this particular project we worked in pairs. This was our first node project and it was a tough one because our backend kept crashing, but I was proud of my frontend on this website</p></div>
       <div class="modal-footer">
-        <button id="b3"><a href="https://www.github.com/mudassarkhop/" target="_blank">GITHUB</a></button>
-        <button id="b4"><a href="#">Live Link</a></button>
+        <button id="b3"><a href="https://github.com/MudassarKhop/End-Of-Node-Project" target="_blank">GITHUB</a></button>
+        <button id="b4"><a href="https://joint-eomp.netlify.app" target="_blank">Live Link</a></button>
       </div>
     </div>
   </div>
@@ -86,8 +86,8 @@
         <p>Car website built with <span>BootStrap</span> and filters made with <span>JavaScript</span>. This was an interesting project because this was the first project where we used an array. We learn't how to sort and filter our products and this.</p>
       </div>
       <div class="modal-footer">
-        <button id="b3"><a href="https://www.github.com/mudassarkhop/" target="_blank">GITHUB</a></button>
-        <button id="b4"><a href="#">Live Link</a></button>
+        <button id="b3"><a href="https://github.com/MudassarKhop/Vue-Cars" target="_blank">GITHUB</a></button>
+        <button id="b4"><a href="https://muda-autohaus.netlify.app" target="_blank">Live Link</a></button>
       </div>
     </div>
   </div>
@@ -255,8 +255,16 @@ img{
 #b3{
     background-color: #c69653;
 }
+#b3:hover{
+    background-color: #c69653ae;
+    box-shadow: none;
+}
 #b4{
     background-color: #0b3447;
+    }
+    #b4:hover{
+        background-color: #0b34478e;
+        box-shadow: none;
     }
     .modal-footer{
         gap: 10px;
