@@ -119,15 +119,22 @@ margin-left: 30px;
  }  
  button:hover{
   transition: 0.2s ease-in;
-  box-shadow: rgb(159 143 79 / 56%) 0px 22px 70px 4px;
   color: rgba(255, 255, 255, 0.87);
 
  }
  #b1{
   background-color: #c69653;
  }
+ #b1:hover{
+  background-color: #c69653ae;
+  box-shadow: none;
+ }
  #b2{
 background-color: #0b3447;
+ }
+ #b2:hover{
+  background-color: #0b34478e;
+        box-shadow: none;
  }
  span{
   color: #ecb365;
