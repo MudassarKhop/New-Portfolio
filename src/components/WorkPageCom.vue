@@ -134,7 +134,7 @@ span{
 
 }
 #heading1{
-    width: 44%;
+    width: 41%;
     display: flex;
     flex-direction: row ;
     flex-wrap: nowrap;

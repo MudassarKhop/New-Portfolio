@@ -25,7 +25,7 @@ export default {
     
 }
 </script>
-<style>
+<style scoped>
 a{
   text-decoration: none;
   color: white;
@@ -47,7 +47,7 @@ color: rgba(255, 255, 255, 0.87);
  #title{
   /* border: 3px solid red; */
   height: 100%;
-  width:80%;
+  width:85%;
   text-align: start;
   color: white;
   display: flex;
@@ -69,7 +69,6 @@ color: rgba(255, 255, 255, 0.87);
   letter-spacing: 4px;
   color: rgb(223, 223, 223);
   text-shadow: 0 5px 5px black;
-
   font-weight: 700;
   }
    #title h2{
@@ -195,4 +194,17 @@ background-color: #0b3447;
   color:#ecb365;
   transition: ease 1s;
  }
+ @media only screen and (max-width: 600px) and (min-width: 389px) {
+  #socials{
+    display: none;
+  }
+  #title h1{
+  font-size: 65px;
+  letter-spacing: 4px;
+  color: rgb(223, 223, 223);
+  text-shadow: 0 5px 5px black;
+  font-weight: 700;
+  }
+
+}
 </style>

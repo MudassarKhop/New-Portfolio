@@ -1,29 +1,26 @@
 <template >
   <div id="stack">
-  <div  id="heading2">
+    <div id="heading">
     <h1>my stack</h1>
-    <h5>my current skills set</h5>
+    <h5>the languages and frameworks i've picked up</h5>
   </div>
   <div id="languages">
-    <div>    <i  class="fa-brands fa-html5"  data-bs-toggle="tooltip" data-bs-title="Default tooltip"></i>
-</div>
-    <div>    <i  class="fa-brands fa-css3-alt"></i>
-</div>
-    <div>    <i  class="fa-brands fa-bootstrap"></i>
-</div>
-    <div>    <i  class="fa-brands fa-square-js"></i>
-</div>
-    <div>
-    <i class="fa-brands fa-vuejs"></i></div>
-    <div>
-      <i class="fa-solid fa-database"></i></div>
-    <div>
-      <i class="fa-brands fa-php"></i></div>
-    <div>
-      <i class="fa-brands fa-node"></i></div>
-    <div>    <i class="fa-brands fa-wordpress"></i>
-</div>
+    <div id="holder">
+    <div id="icons"><i class="fa-brands fa-html5"></i></div>
+    <div id="icons"><i  class="fa-brands fa-css3-alt"></i></div>
+    <div id="icons"><i  class="fa-brands fa-bootstrap"></i></div>
   </div>
+  <div id="holder">
+    <div id="icons"><i  class="fa-brands fa-square-js"></i></div>
+    <div id="icons"><i class="fa-brands fa-vuejs"></i></div>
+    <div id="icons"><i class="fa-solid fa-database"></i></div>
+  </div>
+  <div id="holder">
+    <div id="icons"><i class="fa-brands fa-php"></i></div>
+    <div id="icons"><i class="fa-brands fa-node"></i></div>
+    <div id="icons"> <i class="fa-brands fa-wordpress"></i></div>
+  </div>
+</div>
 </div>
 <div id="projectss">
   <!-- <div  id="heading3">
@@ -60,27 +57,64 @@ span{
   text-shadow: none;
   letter-spacing: 1px;
 }
-    #projects{
+#heading{
+  width: 100%;
+  color: white;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  height: 100vh;
-  gap: 4%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-items: end;
+  align-items: flex-end;
+  padding: 20px;
+  letter-spacing: 2px;
+
+ }
+  h5{
+  color: #ecb365;
  }
  #stack{
   width: 42%;
   height: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
+  justify-content: end;
+  align-items: flex-end;
   /* border: 3px solid white; */
  }
+ #languages{
+  height: 75%;
+  width: 90%;
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 15px;
+  justify-content: start;
+  align-items: flex-end;
+  gap: 15px;
+}
+#holder{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+ #icons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #04293a;
+  border-radius: 20px;
+  height: 210px;
+  width: 225px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
  #heading2{
   width: 100%;
+  height: 20%;
   color: white;
   display: flex;
   flex-direction: column;
@@ -104,71 +138,46 @@ span{
   padding: 20px;
   letter-spacing: 2px;
  }
-#languages{
-  width: 100%;
-  height: 65%;
-  /* border: 3px solid green; */
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: end;
-  align-content: center;
-  gap: 20px;
-
-}
-#languages div{
-  background-color:#04293a ;
-  width: 225px;
-  height: 210px;
-  border-radius: 12px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-}
+ .fa-brands{
+  padding-bottom: none !important
+  ;
+ }
      .fa-html5{
       font-size:100px ;
       color: white;
-      padding: 50px;
       }  
      .fa-css3-alt{
       font-size:100px ;
       color: white;
-      padding: 50px;
      }
      .fa-bootstrap{
       font-size:100px ;
       color: white;
-      padding: 50px;
      }
      .fa-square-js{
       font-size:100px ;
       color: white;
-      padding: 50px;
      }
      .fa-vuejs{
       font-size:100px ;
       color: white;
-      padding: 50px;
      }
      .fa-php{
       font-size:100px ;
       color: white;
-      padding: 50px;
      }
      .fa-node{
       font-size:100px ;
       color: white;
-      padding: 50px;
      }
      .fa-database{
       font-size:100px ;
       color: white;
-      padding: 50px;
       transition: 0.6s ease-in;
      }
      .fa-wordpress{
       font-size:100px ;
       color: white;
-      padding: 50px;
      }
 
      .fa-database:hover{
@@ -204,14 +213,13 @@ span{
      color: #ecb365;
      }
      #projectss{
-      margin-top: 25px;
       width: 50%;
       height: 100%;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
-      align-items: center;
+      align-content: center;
       /* border: 3px solid red; */
 
      }

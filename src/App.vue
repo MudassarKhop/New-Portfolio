@@ -106,7 +106,51 @@ nav a:hover{
 color: #fd3e57;
 transition: ease 1s;
 }
+#buttons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: flex-start;
+  width: 100%;
+  gap: 30px;
+  margin-top: 30px;
+  padding-bottom: 35px;
+ }
+ button{
+  width: 30%;
+  height: 70px;
+  border-radius: 12px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  border: none;
+  color: rgb(223, 223, 223);
+  font-family: Pro;
+  text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-shadow: 0 4px 4px black;
+  transition: 0.2s ease-in;
 
+ }  
+ button:hover{
+  transition: 0.2s ease-in;
+  color: rgba(255, 255, 255, 0.87);
+
+ }
+ #b1{
+  background-color: #c69653;
+ }
+ #b1:hover{
+  background-color: #c69653ae;
+  box-shadow: none;
+ }
+ #b2{
+background-color: #0b3447;
+ }
+ #b2:hover{
+  background-color: #0b34478e;
+        box-shadow: none;
+ }
 /* nav a.router-link-exact-active {
   color: white;
   text-decoration: none;

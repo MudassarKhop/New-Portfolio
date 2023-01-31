@@ -394,4 +394,10 @@ border:3px solid red;
 			margin-top: 20px;
 		}
 	}
+	@media only screen and (max-width: 600px) and (min-width: 389px){
+		.container2 .box[data-v-0c05a456] {
+    min-width: 185px;
+    margin-right: none;
+}
+	}
 </style>

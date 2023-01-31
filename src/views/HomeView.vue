@@ -67,7 +67,7 @@ export default {
   justify-content: center;
   align-content: center;
   height: 100vh;
-  gap: 4%;
+  gap: 2%;
  }
   /* projects */
   /* work */
@@ -120,4 +120,9 @@ export default {
   padding-left: 20px;
   padding-top: 15px;
  }
+ @media only screen and (max-width: 600px) and (min-width: 389px) {
+  #homepage{
+
+  }
+}
 </style>
