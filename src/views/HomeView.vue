@@ -121,8 +121,37 @@ export default {
   padding-top: 15px;
  }
  @media only screen and (max-width: 600px) and (min-width: 389px) {
+  #footer div{
+    width: 100%;
+  }
+  #footer h5{
+    font-size: 13px;
+  }
   #homepage{
-
+flex-direction: column;
+min-height: 100vh;
+  }
+  #about{
+    display: flex;
+    flex-wrap:wrap ;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  #projects{
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  #work{
+flex-direction: column;
+min-height: 100vh;
+  }
+  #testimonials{
+flex-direction: column;
+min-height: 100vh;
+  }
+  #contact{
+    flex-direction: column;
+    min-height: 95vh;
   }
 }
 </style>

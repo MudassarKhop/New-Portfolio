@@ -199,11 +199,14 @@ background-color: #0b3447;
     display: none;
   }
   #title h1{
-  font-size: 65px;
+  font-size: 54px;
   letter-spacing: 4px;
   color: rgb(223, 223, 223);
   text-shadow: 0 5px 5px black;
   font-weight: 700;
+  }
+  #homepage{
+    flex-direction: column;
   }
 
 }

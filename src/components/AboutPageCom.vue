@@ -399,5 +399,9 @@ border:3px solid red;
     min-width: 185px;
     margin-right: none;
 }
+#about{
+	flex-direction: column;
+	flex-wrap: wrap;
+}
 	}
 </style>

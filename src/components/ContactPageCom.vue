@@ -179,4 +179,81 @@ button{
 #b2:hover{
   background-color: #0b34478e;
   box-shadow: none}
+  @media only screen and (max-width: 600px) and (min-width: 389px) {
+ #contactbox{
+  flex-direction: column;
+  min-height: 90vh !important;
+  width: 90%;
+ }
+ #heading h1{
+  text-align: center;
+  font-size: 25px;
+ }
+ #heading h5{
+  text-align: center;
+  font-size: 13px;
+ }
+ #heading{
+    width: 100%;
+    height: 19%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+ }
+ input{
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+ }
+ input:placeholder-shown{
+  font-size: 15px;
+ }
+ textarea:placeholder-shown{
+  font-size: 15px;
+ }
+ #e1{
+  width: 150px;
+  height: 50px;
+ }
+ #n1{
+  width: 150px;
+  height: 50px;
+ }
+ textarea{
+  width: 320px;
+  height: 220px;
+  font-size: 15px;
+ }
+ #form{
+  width: 90%;
+  align-items: center;
+ }
+ form{
+  margin-top: -30px;
+  gap: 25px;
+  height: 55vh;
+  justify-content: center;
+  align-items: center;
+ }
+ #bimg{
+height: 25vh;
+width: 60%;
+align-items: flex-end !important;
+}
+ #name{
+  flex-direction: row;
+ }
+ #email{
+  flex-direction: row;
+ }
+ #buttonss{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+  }
+
 </style>

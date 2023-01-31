@@ -275,4 +275,14 @@ img{
     flex-wrap: nowrap;
     justify-content: center;
 }
+@media only screen and (max-width: 600px) and (min-width: 389px) {
+  #projects {
+  flex-direction: column;
+    
+    /* border: 3px solid red; */
+}
+#words{
+    flex-direction: column;
+}
+}
 </style>

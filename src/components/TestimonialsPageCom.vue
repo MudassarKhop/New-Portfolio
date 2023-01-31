@@ -411,4 +411,9 @@ border-bottom-right-radius: 20px;
   text-align: center;
   opacity: 1;
 }
+@media only screen and (max-width: 600px) and (min-width: 389px) {
+    #testimonial{
+        display: none;
+    }
+}
 </style>

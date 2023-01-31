@@ -23,10 +23,6 @@
 </div>
 </div>
 <div id="projectss">
-  <!-- <div  id="heading3">
-    <h1>my journey</h1>
-    <h5>how i achieved my goals</h5>
-  </div> -->
   <div id="journey">
     <div id="j1">
       <img style="height:300px; width:200px" src="https://i.postimg.cc/sfBjRZ7G/kindpng-567305-removebg-preview.png" alt="">
@@ -328,4 +324,36 @@ span{
       font-size: 20px;
       letter-spacing: 2px;
      }
+     @media only screen and (max-width: 600px) and (min-width: 389px) {
+  #holder{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #j1 {
+    flex-direction: column!important;
+}
+#j2 {
+    flex-direction: column!important;
+}
+#j3 {
+    flex-direction: column!important;
+}
+#journey img{
+    height: 310px !important;
+    width: 215px !important;
+}
+  #languages{
+    flex-direction:row;
+  }
+  #icons{
+    height: 105px;
+    width: 112px;
+  }
+  .fa-brands{
+    font-size: 50px;
+  }
+  .fa-database{
+    font-size: 50px;
+  }
+}
 </style>
