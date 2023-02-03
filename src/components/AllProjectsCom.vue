@@ -258,4 +258,46 @@ span{
 .modal{
     background-color: #04293a;
 }
+@media only screen and (max-width: 600px) and (min-width: 389px) {
+  #words[data-v-06c8f176] {
+    width: 100%;
+    height: 13%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#heading{
+  width: 100%;
+  justify-content: center !important;
+  align-items: center !important;
+}
+#heading h1{
+  font-size: 25px;
+}
+#heading1{
+  width: 100%;
+  justify-content: center !important;
+  align-items: center !important;
+}
+#heading h5{
+  font-size: 17px;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+}
+#card{
+  width: 85%;
+}
+
+#card h1{
+  font-size: 22px;
+margin-top: 10px;
+}
+#card p{
+  font-size: 17px;
+}
+
+}
 </style>

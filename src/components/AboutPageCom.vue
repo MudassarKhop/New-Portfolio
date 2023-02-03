@@ -16,25 +16,25 @@
     <div id="skills">
       <div id="heading">
         <h5><i class="fa-solid fa-people-group"></i> Team Player</h5>
-        <p style="text-align:end; color:rgba(255, 255, 255, 0.686); font-size:18px">In my time playing football, I realised that the team can only succeed working as one unit.</p>
+        <p class="traits" style="text-align:end; color:rgba(255, 255, 255, 0.686); font-size:18px">In my time playing football, I realised that the team can only succeed working as one unit.</p>
       </div>
     </div>
     <div id="skills">
       <div id="heading">
         <h5><i class="fa-solid fa-bolt"></i> Determination</h5>
-        <p style="text-align:end; color:rgba(255, 255, 255, 0.686); font-size:18px">Once commited to a task, I strive to do to everything in my power to complete the task. </p>
+        <p class="traits" style="text-align:end; color:rgba(255, 255, 255, 0.686); font-size:18px">Once commited to a task, I strive to do to everything in my power to complete the task. </p>
       </div>
     </div>
     <div id="skills">
       <div id="heading">
         <h5><i class="fa-solid fa-brain"></i> Problem Solving</h5>
-        <p style="text-align:end; color:rgba(255, 255, 255, 0.686); font-size:18px">In the academy where I learnt coding, I faced many obstacles but when put under pressure, I produce some of my best work.</p>
+        <p class="traits" style="text-align:end; color:rgba(255, 255, 255, 0.686); font-size:18px">In the academy where I learnt coding, I faced many obstacles but when put under pressure, I produce some of my best work.</p>
       </div>
     </div>
     <div id="skills">
       <div id="heading">
         <h5><i class="fa-solid fa-stairs"></i> Leadership</h5>
-        <p style="text-align:end; color:rgba(255, 255, 255, 0.686); font-size:18px">I believe I possess some of the core skills to be a leader such as: time management, flexbility, creativity and most importantly postivity. </p>
+        <p class="traits" style="text-align:end; color:rgba(255, 255, 255, 0.686); font-size:18px">I believe I possess some of the core skills to be a leader such as: time management, flexbility, creativity and most importantly postivity. </p>
       </div>
     </div>
   </div>
@@ -355,16 +355,6 @@ border:3px solid red;
 		#stuuf {
 			min-height: 100%;
 		}
-		.stuff1 {
-			display: flex;
-			flex-direction: column;
-			flex-wrap: wrap;
-		}
-		.stuff2 {
-			display: flex;
-			flex-direction: column;
-			flex-wrap: wrap;
-		}
 		#divide4 {
 			min-height: 500px;
 			min-width: 100%;
@@ -388,20 +378,68 @@ border:3px solid red;
 			flex-wrap: nowrap;
 			min-width: 70%;
 		}
-		.container2 {
-			gap: 10px;
-			margin-bottom: 20px;
-			margin-top: 20px;
-		}
 	}
 	@media only screen and (max-width: 600px) and (min-width: 389px){
 		.container2 .box[data-v-0c05a456] {
-    min-width: 185px;
+    min-width: 330px;
     margin-right: none;
+	min-height: 530px;
 }
-#about{
+.container2:hover .box {
+		transform: none;
+	}
+	.container2 .box:hover ~ .box {
+		transform: none;
+	}
+	.container2 .box:hover {
+		transform: none;
+		z-index: 1;
+		box-shadow: none;	
+	}
+.container2 {
+			gap: 30px;
+		}
+#heading{
+	justify-items: center;
+    align-items: center;
+}
+#heading h1{
+	font-size: 25px;
+}
+#heading h5{
+	font-size: 15px;
+}
+#passage{
+	width: 100%;
+}
+#passage p{
+	text-align: center;
+	padding-bottom: 0 !important;
+	padding-left: 0 !important;
+	margin-bottom: 0 !important;
+}
+#skillsblocks{
+	display: flex;
+	flex-wrap: nowrap;
 	flex-direction: column;
-	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
+#skills{
+	width: 100%;
+	height: 160px;
+}
+.traits{
+	text-align: center !important;
+	font-size: 17px !important;
+}
+#about2{
+	width: 100%;
+}
+#about1{
+	width: 100%;
+}
+
 	}
 </style>

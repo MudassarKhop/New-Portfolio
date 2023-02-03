@@ -415,5 +415,11 @@ border-bottom-right-radius: 20px;
     #testimonial{
         display: none;
     }
+    #heading{
+        width: 100%;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
 }
 </style>

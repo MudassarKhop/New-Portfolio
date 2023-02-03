@@ -58,7 +58,8 @@ span{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   background-color: #041424;
-  
+  display: flex;
+  flex-direction: column !important;
   color: #2c3e50;
 }
 body::-webkit-scrollbar{

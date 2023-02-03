@@ -326,8 +326,8 @@ span{
      }
      @media only screen and (max-width: 600px) and (min-width: 389px) {
   #holder{
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
   #j1 {
     flex-direction: column!important;
@@ -355,5 +355,56 @@ span{
   .fa-database{
     font-size: 50px;
   }
+  #stack{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #heading{
+    justify-items: center;
+    align-items: center;
+  }
+  #heading h1 {
+    font-size: 25px;
+}
+#heading h5 {
+    font-size: 15px;
+    text-align: center;
+}
+#languages{
+  justify-content: center;
+    align-items: center;
+}
+#projectss{
+  width: 100%;
+  margin-top: 20px;
+}
+#journey{
+  width: 100%;
+}
+#j1 {
+margin-top: 10px;
+}
+#j2 {
+margin-top: 10px;
+}
+#j3 {
+margin-top: 10px;
+}
+#j1 img{
+display: none;
+}
+#j2 img{
+display: none;
+}
+#j3 img{
+display: none;
+}
+#jhead{
+text-align: center !important;
+}
+#jhead p{
+  font-size: 17px;
+}
 }
 </style>

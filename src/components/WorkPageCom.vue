@@ -9,7 +9,7 @@
   <button id="b2"><router-link @click.native="scrollToTop" to="/projects">All Projects</router-link></button>
         </div>
 </div>
-    <div id="projects">
+    <div id="projects1">
             <div id="card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <div id="img">
                     <img src="https://i.postimg.cc/L5txVCqv/Screenshot-17.png" alt="">
@@ -158,7 +158,7 @@ span{
     justify-content: start;
     align-items: flex-start;
 }
-#projects{
+#projects1{
     height: 65%;
     width: 100%;
     display: flex;
@@ -276,13 +276,46 @@ img{
     justify-content: center;
 }
 @media only screen and (max-width: 600px) and (min-width: 389px) {
-  #projects {
+  #projects1 {
   flex-direction: column;
     
     /* border: 3px solid red; */
 }
 #words{
     flex-direction: column;
+
+}
+#heading{
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
+    align-items: center;
+}
+#heading h1{
+  font-size: 25px;
+}
+#heading h5{
+  font-size: 17px;
+}
+#heading1{
+  width: 100%;
+  justify-content: center;
+    align-items: center;
+}
+#projects1{
+  margin-top: 30px;
+  gap: 20px;
+}
+#card{
+  width: 85%;
+}
+
+#card h1{
+  font-size: 22px;
+margin-top: 10px;
+}
+#card p{
+  font-size: 17px;
 }
 }
 </style>

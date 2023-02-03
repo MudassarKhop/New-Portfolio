@@ -12,7 +12,7 @@
 <h1>I'M <span>MUDASSAR KHOPATKAR</span>;</h1>
 <h2>ASPIRING <span>WEB-DEVELOPER</span></h2>
 <div id="buttons">
-  <button id="b1"><a href="https://pdfhost.io/v/k9cqIU0~k_MudassarKhopatkarCV" target="_blank">RESUME</a></button>
+  <button id="b1"><a href="https://resume.io/r/WKoqcPhh8" target="_blank">RESUME</a></button>
   <button id="b2"> <a href="#contact">CONTACT ME</a></button>
 </div>
 <div class="png2">

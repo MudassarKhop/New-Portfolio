@@ -55,7 +55,7 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  height: 100vh;
+  min-height: 100vh;
 
  }
 /* about */
@@ -66,13 +66,13 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  height: 100vh;
+  min-height: 100vh;
   gap: 2%;
  }
   /* projects */
   /* work */
   #work{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -132,24 +132,31 @@ flex-direction: column;
 min-height: 100vh;
   }
   #about{
+    border-top: 1px solid grey;
     display: flex;
-    flex-wrap:wrap ;
+    flex-wrap:nowrap ;
     flex-direction: column;
     min-height: 100vh;
   }
   #projects{
+   margin-top: 30px;
     flex-direction: column;
     min-height: 100vh;
   }
   #work{
+    border-top: 1px solid grey;
+    margin-top: 30px;
 flex-direction: column;
 min-height: 100vh;
+margin-bottom: 30px;
   }
   #testimonials{
+    border-top: 1px solid grey;
 flex-direction: column;
 min-height: 100vh;
   }
   #contact{
+    border-top: 1px solid grey;
     flex-direction: column;
     min-height: 95vh;
   }
