@@ -70,11 +70,10 @@ span{
  }
  #stack{
   width: 42%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: end;
+  justify-content: center;
   align-items: flex-end;
   /* border: 3px solid white; */
  }

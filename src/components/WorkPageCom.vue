@@ -125,7 +125,7 @@ span{
     align-items: center;  
 }
 #heading{
-    width: 44%;
+    width: 42%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -166,8 +166,8 @@ span{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-
     /* border: 3px solid red; */
+    gap: 20px;
 }
 #card{
     display: flex;

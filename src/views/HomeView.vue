@@ -37,7 +37,7 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 /* homepage */
  #homepage{
   height: 101vh;
@@ -72,7 +72,7 @@ export default {
   /* projects */
   /* work */
   #work{
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
