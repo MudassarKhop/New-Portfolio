@@ -9,7 +9,7 @@
   <button id="b2" @click="homePage()">Home</button>
         </div>
 </div>
-<div id="card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div id="card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <div id="img">
                     <img src="https://i.postimg.cc/L5txVCqv/Screenshot-17.png" alt="">
                 </div>
@@ -23,21 +23,21 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">CapStone Project</h1>
+        <button style="background-color:transparent" type="button" id="close-button" data-bs-dismiss="modal" ><i class="fa-solid fa-xmark"></i></button>
       </div>
       <div class="modal-body">
-        ...
+        <p>Full Stack project built with <span>VUE.js</span> and <span>NODE.js</span> backend. This project was the final project of the academy, it tested our backend and frontend skills in one go.</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button id="b3"><a href="https://github.com/MudassarKhop/CapStone-FrontEnd" target="_blank">GITHUB</a></button>
+        <button id="b4"><a href="https://cap-stone-mudassarkhopatkar.netlify.app" target="_blank">Live Link</a></button>
       </div>
     </div>
   </div>
 </div>
 <!-- modal -->
-<div id="card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            <div id="card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                 <div id="img">
                     <img src="https://i.postimg.cc/prVJv2cb/Screenshot-18.png" alt="">
                 </div>
@@ -47,25 +47,24 @@
                 </div>
             </div>
             <!-- Modal -->
-<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal titlee</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Node Final Project</h1>
+        <button style="background-color:transparent" type="button" id="close-button" data-bs-dismiss="modal" ><i class="fa-solid fa-xmark"></i></button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
+        <p>Ecommerce end of module project built in <span>NODE.js</span> to test backend skills. On this particular project we worked in pairs. This was our first node project and it was a tough one because our backend kept crashing, but I was proud of my frontend on this website</p></div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button id="b3"><a href="https://github.com/MudassarKhop/End-Of-Node-Project" target="_blank">GITHUB</a></button>
+        <button id="b4"><a href="https://joint-eomp.netlify.app" target="_blank">Live Link</a></button>
       </div>
     </div>
   </div>
 </div>
 <!-- modal -->
-<div id="card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+            <div id="card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                 <div id="img">
                     <img src="https://i.postimg.cc/3xvdfsrK/Screenshot-19.png" alt="">
                 </div>
@@ -75,51 +74,106 @@
                 </div>
             </div>
                      <!-- Modal -->
-<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                     <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal titlee3</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Car Website</h1>
+        <button style="background-color:transparent" type="button" id="close-button" data-bs-dismiss="modal" ><i class="fa-solid fa-xmark"></i></button>
       </div>
       <div class="modal-body">
-        ...
+        <p>Car website built with <span>BootStrap</span> and filters made with <span>JavaScript</span>. This was an interesting project because this was the first project where we used an array. We learn't how to sort and filter our products and this.</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button id="b3"><a href="https://github.com/MudassarKhop/Vue-Cars" target="_blank">GITHUB</a></button>
+        <button id="b4"><a href="https://muda-autohaus.netlify.app" target="_blank">Live Link</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+            <div id="card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div id="img">
+                    <img src="https://i.postimg.cc/L5txVCqv/Screenshot-17.png" alt="">
+                </div>
+                <div id="name">
+                  <h1>CapStone Project</h1>
+                  <p>Full Stack project built with <span>VUE.js</span> and <span>NODE.js</span> backend.</p>
+                </div>
+            </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">CapStone Project</h1>
+        <button style="background-color:transparent" type="button" id="close-button" data-bs-dismiss="modal" ><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <p>Full Stack project built with <span>VUE.js</span> and <span>NODE.js</span> backend. This project was the final project of the academy, it tested our backend and frontend skills in one go.</p>
+      </div>
+      <div class="modal-footer">
+        <button id="b3"><a href="https://github.com/MudassarKhop/CapStone-FrontEnd" target="_blank">GITHUB</a></button>
+        <button id="b4"><a href="https://cap-stone-mudassarkhopatkar.netlify.app" target="_blank">Live Link</a></button>
       </div>
     </div>
   </div>
 </div>
 <!-- modal -->
-            <div id="card">
+            <div id="card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                 <div id="img">
-                    <img loading="lazy" src="https://i.postimg.cc/c4HQbnJQ/Screenshot-21.png" alt="">
+                    <img src="https://i.postimg.cc/prVJv2cb/Screenshot-18.png" alt="">
                 </div>
                 <div id="name">
-                  <h1>Group Ecom Project</h1>
-                  <p>Full Stack project built with <span>VUE.js</span> and <span>NODE.js</span> backend.</p>
+                  <h1>Node Final Project</h1>
+                  <p>Ecommerce end of module project built in <span>NODE.js</span> to test backend skills.</p>
                 </div>
             </div>
-            <div id="card">
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Node Final Project</h1>
+        <button style="background-color:transparent" type="button" id="close-button" data-bs-dismiss="modal" ><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <p>Ecommerce end of module project built in <span>NODE.js</span> to test backend skills. On this particular project we worked in pairs. This was our first node project and it was a tough one because our backend kept crashing, but I was proud of my frontend on this website</p></div>
+      <div class="modal-footer">
+        <button id="b3"><a href="https://github.com/MudassarKhop/End-Of-Node-Project" target="_blank">GITHUB</a></button>
+        <button id="b4"><a href="https://joint-eomp.netlify.app" target="_blank">Live Link</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal -->
+            <div id="card" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                 <div id="img">
-                    <img loading="lazy" src="https://i.postimg.cc/hGFTvZ1r/Screenshot-22.png" alt="">
+                    <img src="https://i.postimg.cc/3xvdfsrK/Screenshot-19.png" alt="">
                 </div>
                 <div id="name">
-                  <h1>Restuarantly Mockup</h1>
-                  <p>Task was to replicate the mockup website using <span>BootStrap</span>.</p>
+                  <h1>Car Website</h1>
+                  <p>Car website built with <span>BootStrap</span> and filters made with <span>JavaScript</span>.</p>
                 </div>
             </div>
-            <div id="card">
-                <div id="img">
-                    <img loading="lazy" src="https://i.postimg.cc/hP59WtJN/Screenshot-23.png" alt="">
-                </div>
-                <div id="name">
-                  <h1>Vue Portfolio</h1>
-                  <p>Final portfolio in the coding academy using <span>Vue.js</span> aswell as <span>JavaScript</span>.</p>
-                </div>
-            </div>
+                     <!-- Modal -->
+                     <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Car Website</h1>
+        <button style="background-color:transparent" type="button" id="close-button" data-bs-dismiss="modal" ><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <p>Car website built with <span>BootStrap</span> and filters made with <span>JavaScript</span>. This was an interesting project because this was the first project where we used an array. We learn't how to sort and filter our products and this.</p>
+      </div>
+      <div class="modal-footer">
+        <button id="b3"><a href="https://github.com/MudassarKhop/Vue-Cars" target="_blank">GITHUB</a></button>
+        <button id="b4"><a href="https://muda-autohaus.netlify.app" target="_blank">Live Link</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal -->
     </section>
 </template>
 <script>
@@ -255,8 +309,58 @@ span{
     justify-content: start;
     align-items: flex-start;
 }
-.modal{
+
+.modal-content{
     background-color: #04293a;
+    border: none;
+    width: 700px;
+    height: 500px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.686);
+    letter-spacing: 2px;
+}
+.modal-content h1{
+    color: #ecb365;
+    letter-spacing: 2px;
+    font-size: 30px !important;
+    padding-left: 20px;
+}
+.fa-xmark{
+    color: white;
+    font-size: 50px;
+    transition:0.2s ease;
+}
+.fa-xmark:hover{
+    color: #ecb465bb;
+    font-size: 50px;
+    transition:0.2s ease;
+}
+#close-button{
+    box-shadow: none;
+    width: 60px;
+}
+#b3{
+    background-color: #c69653;
+}
+#b3:hover{
+    background-color: #c69653ae;
+    box-shadow: none;
+}
+#b4{
+    background-color: #0b3447;
+    }
+    #b4:hover{
+        background-color: #0b34478e;
+        box-shadow: none;
+    }
+    .modal-footer{
+        gap: 10px;
+    }
+    .modal-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 @media only screen and (max-width: 600px) and (min-width: 389px) {
   #words[data-v-06c8f176] {

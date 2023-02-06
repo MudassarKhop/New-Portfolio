@@ -140,30 +140,44 @@ span{
      .fa-html5{
       font-size:100px ;
       color: white;
+            transition: 0.6s ease-in;
+
       }  
      .fa-css3-alt{
       font-size:100px ;
       color: white;
+            transition: 0.6s ease-in;
+
      }
      .fa-bootstrap{
       font-size:100px ;
       color: white;
+            transition: 0.6s ease-in;
+
      }
      .fa-square-js{
       font-size:100px ;
       color: white;
+            transition: 0.6s ease-in;
+
      }
      .fa-vuejs{
       font-size:100px ;
       color: white;
+            transition: 0.6s ease-in;
+
      }
      .fa-php{
       font-size:100px ;
       color: white;
+            transition: 0.6s ease-in;
+
      }
      .fa-node{
       font-size:100px ;
       color: white;
+            transition: 0.6s ease-in;
+
      }
      .fa-database{
       font-size:100px ;
@@ -191,21 +205,33 @@ span{
       } 
       .fa-html5:hover{
       color: #ecb365;
+      transition: 0.6s ease-in;
+
       } 
      .fa-css3-alt:hover{
       color: #ecb365;
+      transition: 0.6s ease-in;
+
      }
      .fa-bootstrap:hover{
       color: #ecb365;
+      transition: 0.6s ease-in;
+
      }
      .fa-square-js:hover{
       color: #ecb365;
+      transition: 0.6s ease-in;
+
      }
      .fa-vuejs:hover{
       color: #ecb365;
+      transition: 0.6s ease-in;
+
      }
      .fa-wordpress:hover{
      color: #ecb365;
+     transition: 0.6s ease-in;
+
      }
      #projectss{
       width: 50%;

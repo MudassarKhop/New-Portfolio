@@ -16,7 +16,8 @@ export default {
 <style scoped>
 #projects {
   width: 100%;
-  min-height: 150vh;
+  padding: 50px;
+min-height: 150vh;
   background-color: #041424;
 }
 
