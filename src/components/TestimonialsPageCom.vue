@@ -33,7 +33,7 @@
                     Mudassar is a highly competent, focused web developer. His friendly disposition draws his colleagues to him, he is impressionable to everyone he comes in contact with.                   </div>
                 </div>
                 <div class="course-title">-Carla Amy Lawrence</div>
-                <div class="course-title2">peer</div>
+                <div class="course-title2">collegue</div>
                 </div>            
              </div>
           </div>
@@ -49,7 +49,7 @@
                    </div>
                 </div>
                  <div class="course-title">-Jesse Spence</div>
-                <div class="course-title2">peer</div>
+                <div class="course-title2">collegue</div>
                 </div>            
              </div>
           </div>
@@ -65,7 +65,7 @@
                    </div>
                 </div>
                 <div class="course-title">-Ricardo Moses</div>
-                <div class="course-title2">peer</div>
+                <div class="course-title2">collegue</div>
                 </div>            
              </div>
           </div>
@@ -82,7 +82,7 @@
                    </div>
                 </div>
                <div class="course-title">-Tsimilogo King</div>
-                <div class="course-title2">peer</div>
+                <div class="course-title2">collegue</div>
                 </div>            
              </div>
           </div>   
