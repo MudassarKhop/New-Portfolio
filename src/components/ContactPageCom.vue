@@ -47,7 +47,7 @@ export default {
 }
 #bimg img{
 height: 70%;
-width: 70%;
+width: 60%;
 }
 #heading h1 {
     color: white;
