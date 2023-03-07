@@ -7,7 +7,7 @@
 <a href="https://www.instagram.com/mudathierkop/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
     <div id="line"></div>
   </div>
-<div id="title">
+  <div id="title">
 <h3>HI THERE,</h3>
 <h1>I'M <span>MUDASSAR KHOPATKAR</span>;</h1>
 <h2>ASPIRING <span>WEB-DEVELOPER</span></h2>
@@ -58,7 +58,7 @@ color: rgba(255, 255, 255, 0.87);
   
  }
  #title h3{
-  font-size: 45px;
+  font-size: 40px;
   letter-spacing: 2px;
   color: rgb(223, 223, 223);
   text-shadow: 0 5px 5px black;
@@ -72,12 +72,13 @@ color: rgba(255, 255, 255, 0.87);
   font-weight: 700;
   }
    #title h2{
-  font-size: 30px;
+  font-size: 28px;
   letter-spacing: 2px;
   color: rgb(223, 223, 223);
   text-shadow: 0 5px 5px black;
-  font-weight: 500 ;
+  font-weight: 300 ;
   margin-bottom: 0;
+  width:50%;
  }
  #socials{
   /* border: 3px solid red; */
@@ -153,6 +154,14 @@ background-color: #0b3447;
   background-color: white;
   border: 3px solid white;
   height: 20%;
+ }
+ #line2{
+ height:0.1px;
+ width:1200px;
+ margin-bottom: 2rem;
+  background-color: white;
+  border: 3px solid white;
+  
  }
  #png{
   width: 80%;

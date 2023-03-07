@@ -154,8 +154,8 @@ input:placeholder-shown {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: start;
-  align-items: flex-start;
+  justify-content: end;
+  align-items: flex-end;
   gap: 20px;
 }
 form{
